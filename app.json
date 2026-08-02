@@ -60,8 +60,8 @@
       "type":"celebration",
       "title":"🌙 عید سعید فطر مبارک",
       "message":"عید سعید فطر را به شما و خانواده محترمتان تبریک عرض می‌کنیم.",
-      "startDate":"2027-03-10T00:00:00Z",
-      "endDate":"2027-03-15T23:59:59Z",
+      "startDate":"",
+      "endDate":"",
       "showOnce":true,
       "button":{
         "enabled":true,
