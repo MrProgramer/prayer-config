@@ -1,11 +1,12 @@
 {
-  "configVersion":1,
+  "configVersion":2,
   "lastUpdate":"2026-08-02T12:00:00Z",
   "checkIntervalHours":6,
+  "randomDelayMinutes":60,
   "app":{
     "enabled":true,
     "maintenance":{
-      "enabled":true,
+      "enabled":false,
       "title":"برنامه موقتاً در دسترس نیست",
       "message":"در حال بروزرسانی و بهبود برنامه هستیم. لطفاً بعداً دوباره تلاش کنید.",
       "buttonText":"خروج"
@@ -37,57 +38,10 @@
       "priority":110,
       "type":"celebration",
       "title":"🌙 فرا رسیدن ماه مبارک رمضان",
-      "message":"فرا رسیدن ماه مبارک رمضان را به شما تبریک عرض می‌کنیم. از خداوند متعال قبولی طاعات و عبادات، سلامتی و خیر و برکت برای شما و خانواده محترمتان مسئلت داریم.",
-      "startDate":"",
-      "endDate":"",
-      "button":{
-        "enabled":true,
-        "text":"بستن",
-        "url":""
-      },
-      "animation":{
-        "enabled":true,
-        "type":"confetti",
-        "duration":4500
-      },
-      "sound":{
-        "enabled":false
-      },
-      "showOnce":true
-    },
-    {
-      "id":"eid_fitr",
-      "enabled":false,
-      "priority":100,
-      "type":"celebration",
-      "title":"🌙 عید سعید فطر مبارک",
-      "message":"فرا رسیدن عید سعید فطر را به شما و خانواده محترمتان تبریک عرض می‌کنیم. از خداوند متعال قبولی طاعات و عبادات شما را مسئلت داریم.",
-      "startDate":"2027-03-10T00:00:00Z",
-      "endDate":"2027-03-15T23:59:59Z",
-      "button":{
-        "enabled":true,
-        "text":"متوجه شدم",
-        "url":""
-      },
-      "animation":{
-        "enabled":true,
-        "type":"confetti",
-        "duration":4500
-      },
-      "sound":{
-        "enabled":false
-      },
-      "showOnce":true
-    },
-    {
-      "id":"eid_adha",
-      "enabled":false,
-      "priority":100,
-      "type":"celebration",
-      "title":"🕋 عید سعید قربان مبارک",
-      "message":"عید سعید قربان را به شما تبریک عرض می‌کنیم. امیدواریم این عید بزرگ سرشار از خیر، برکت و آرامش برای شما و خانواده‌تان باشد.",
-      "startDate":"2027-05-16T00:00:00Z",
-      "endDate":"2027-05-20T23:59:59Z",
+      "message":"فرا رسیدن ماه مبارک رمضان را به شما تبریک عرض می‌کنیم. از خداوند متعال قبولی طاعات و عبادات شما را مسئلت داریم.",
+      "startDate":"2027-02-08T00:00:00Z",
+      "endDate":"2027-03-10T23:59:59Z",
+      "showOnce":true,
       "button":{
         "enabled":true,
         "text":"سپاس",
@@ -97,46 +51,70 @@
         "enabled":true,
         "type":"confetti",
         "duration":4500
-      },
-      "sound":{
-        "enabled":false
-      },
-      "showOnce":true
+      }
     },
     {
-      "id":"general_notice",
+      "id":"eid_fitr",
       "enabled":false,
-      "priority":50,
-      "type":"popup",
-      "title":"📢 اطلاعیه",
-      "message":"متن اطلاعیه خود را اینجا بنویسید.",
-      "startDate":"",
-      "endDate":"",
+      "priority":100,
+      "type":"celebration",
+      "title":"🌙 عید سعید فطر مبارک",
+      "message":"عید سعید فطر را به شما و خانواده محترمتان تبریک عرض می‌کنیم.",
+      "startDate":"2027-03-10T00:00:00Z",
+      "endDate":"2027-03-15T23:59:59Z",
+      "showOnce":true,
       "button":{
-        "enabled":false,
-        "text":"",
+        "enabled":true,
+        "text":"متوجه شدم",
         "url":""
       },
       "animation":{
         "enabled":true,
-        "type":"scale",
-        "duration":300
-      },
-      "showOnce":true
+        "type":"confetti",
+        "duration":4500
+      }
     },
     {
-      "id":"telegram_channel",
+      "id":"eid_adha",
       "enabled":false,
-      "priority":40,
-      "type":"popup",
-      "title":"📱 کانال رسمی ما",
-      "message":"برای دریافت اخبار و بروزرسانی‌های برنامه عضو کانال ما شوید.",
+      "priority":100,
+      "type":"celebration",
+      "title":"🕋 عید سعید قربان مبارک",
+      "message":"عید سعید قربان را به شما تبریک عرض می‌کنیم. امیدواریم این عید بزرگ سرشار از خیر و برکت باشد.",
+      "startDate":"2027-05-16T00:00:00Z",
+      "endDate":"2027-05-20T23:59:59Z",
+      "showOnce":true,
       "button":{
         "enabled":true,
-        "text":"عضویت در کانال",
-        "url":"https://t.me/YOUR_CHANNEL"
+        "text":"سپاس",
+        "url":""
       },
-      "showOnce":true
+      "animation":{
+        "enabled":true,
+        "type":"confetti",
+        "duration":4500
+      }
+    }
+  ],
+  "locationMessages":[
+    {
+      "id":"kurdistan_special",
+      "enabled":false,
+      "priority":200,
+      "cities":[
+        "جوانرود",
+        "ثلاث باباجانی",
+        "روانسر",
+        "پاوه"
+      ],
+      "title":"📍 پیام ویژه منطقه",
+      "message":"سلام به مردم عزیز جوانرود، ثلاث باباجانی، روانسر و پاوه. این پیام فقط برای کاربران این مناطق نمایش داده می‌شود.",
+      "showOnce":true,
+      "button":{
+        "enabled":false,
+        "text":"",
+        "url":""
+      }
     }
   ],
   "banner":{
