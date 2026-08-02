@@ -76,7 +76,7 @@
     },
     {
       "id":"ramadan",
-      "enabled":true,
+      "enabled":false,
       "priority":150,
       "type":"celebration",
       "title":"🌙 ماه مبارک رمضان",
@@ -93,14 +93,14 @@
     },
     {
       "id":"eid_fitr",
-      "enabled":false,
+      "enabled":true,
       "priority":140,
       "type":"celebration",
       "title":"🌙 عید سعید فطر مبارک",
       "message":"عید سعید فطر را به شما و خانواده محترمتان تبریک عرض می‌کنیم. امیدواریم طاعات شما مورد قبول درگاه خداوند قرار گیرد.",
-      "image":"",
-      "startDate":"1406/01/01",
-      "endDate":"1406/01/05",
+      "image":"https://media.istockphoto.com/id/1498294247/vector/qurban-in-eid-al-adha-mubarak-with-mosque-and-cow-as-background.jpg?s=612x612&w=0&k=20&c=OVgKclSlH1frKGBHMrh0XX5zqGTA-vBPKrMODkQTl7g=",
+      "startDate":"",
+      "endDate":"",
       "showOnce":false,
       "animation":{
         "enabled":true,
