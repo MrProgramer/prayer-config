@@ -84,7 +84,7 @@
       "image":"https://img.magnific.com/free-psd/ramadan-mubarak-3d-banner-design-template_47987-19386.jpg?semt=ais_test_b&w=740&q=80",
       "startDate":"",
       "endDate":"",
-      "showOnce":false,
+      "showOnce":true,
       "animation":{
         "enabled":true,
         "type":"confetti",
