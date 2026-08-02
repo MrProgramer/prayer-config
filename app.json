@@ -112,7 +112,7 @@
       "showOnce":true,
       "button":{
         "enabled":false,
-        "text":"",
+        "text":"بستن",
         "url":""
       }
     }
