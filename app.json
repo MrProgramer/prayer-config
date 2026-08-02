@@ -22,7 +22,7 @@
       "storeUrl":"https://cafebazaar.ir/app/YOUR_PACKAGE_NAME"
     },
     "optionalUpdate":{
-      "enabled":true,
+      "enabled":false,
       "latestVersion":15,
       "title":"نسخه جدید منتشر شد",
       "message":"امکانات جدیدی به برنامه اضافه شده است.",
