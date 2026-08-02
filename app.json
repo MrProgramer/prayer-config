@@ -14,7 +14,7 @@
   },
   "update":{
     "forceUpdate":{
-      "enabled":false,
+      "enabled":true,
       "minimumVersion":10,
       "title":"نسخه جدید ضروری است",
       "message":"برای ادامه استفاده لطفاً برنامه را بروزرسانی کنید.",
@@ -22,7 +22,7 @@
       "storeUrl":"https://cafebazaar.ir/app/YOUR_PACKAGE_NAME"
     },
     "optionalUpdate":{
-      "enabled":true,
+      "enabled":false,
       "latestVersion":15,
       "title":"نسخه جدید منتشر شد",
       "message":"امکانات جدیدی به برنامه اضافه شده است.",
