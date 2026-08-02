@@ -14,7 +14,7 @@
   },
   "update":{
     "forceUpdate":{
-      "enabled":false,
+      "enabled":true,
       "minimumVersion":10,
       "title":"نسخه جدید ضروری است",
       "message":"برای ادامه استفاده لطفاً برنامه را بروزرسانی کنید.",
@@ -34,7 +34,7 @@
   "messages":[
     {
       "id":"test_popup",
-      "enabled":true,
+      "enabled":false,
       "priority":100,
       "type":"popup",
       "title":"📢 پیام آزمایشی",
