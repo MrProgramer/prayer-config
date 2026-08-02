@@ -53,7 +53,7 @@
       "sound":{
         "enabled":false
       },
-      "showOnce":true
+      "showOnce":false
     },
     {
       "id":"eid_fitr",
