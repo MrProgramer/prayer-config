@@ -33,7 +33,7 @@
   "messages":[
     {
       "id":"ramadan",
-      "enabled":true,
+      "enabled":false,
       "priority":110,
       "type":"celebration",
       "title":"🌙 فرا رسیدن ماه مبارک رمضان",
