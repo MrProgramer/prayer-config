@@ -40,7 +40,7 @@
       "title":"📢 پیام آزمایشی",
       "message":"این یک پیام آزمایشی از راه دور است. متن، تصویر و لینک این پیام قابل تغییر است.",
       "image":"",
-      "showOnce":true,
+      "showOnce":flase,
       "button":{
         "enabled":true,
         "text":"مشاهده",
@@ -98,7 +98,7 @@
       "type":"celebration",
       "title":"🌙 عید سعید فطر مبارک",
       "message":"حلول عید سعید فطر، عید بندگی و شکرگزاری را به شما و خانواده گرامی تبریک عرض می‌کنیم. از خداوند متعال قبولی طاعات و عبادات، سلامتی، آرامش و برکت را برای شما مسئلت داریم.",
-      "image":"https://cbhuk.org/wp-content/uploads/2019/06/Screenshot_20190604-061411_Gallery-1-770x400.jpg",
+      "image":"https://assets.thehansindia.com/h-upload/2025/03/30/1537744-eid.webp",
       "startDate":"",
       "endDate":"",
       "showOnce":false,
