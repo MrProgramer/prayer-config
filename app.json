@@ -65,7 +65,7 @@
         "durationSeconds":10
       },
       "button":{
-        "enabled":true,
+        "enabled":false,
         "text":"ورود",
         "url":"https://example.com"
       },
