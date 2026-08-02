@@ -84,7 +84,7 @@
       "image":"",
       "startDate":"1405/05/11",
       "endDate":"1405/12/20",
-      "showOnce":true,
+      "showOnce":false,
       "animation":{
         "enabled":true,
         "type":"confetti",
