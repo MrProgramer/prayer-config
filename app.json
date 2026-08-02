@@ -101,11 +101,11 @@
       "image":"https://media.istockphoto.com/id/1498294247/vector/qurban-in-eid-al-adha-mubarak-with-mosque-and-cow-as-background.jpg?s=612x612&w=0&k=20&c=OVgKclSlH1frKGBHMrh0XX5zqGTA-vBPKrMODkQTl7g=",
       "startDate":"",
       "endDate":"",
-      "showOnce":false,
+      "showOnce":true,
       "animation":{
         "enabled":true,
         "type":"fireworks",
-        "duration":4500
+        "duration":45000
       }
     },
     {
