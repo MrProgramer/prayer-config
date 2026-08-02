@@ -55,7 +55,7 @@
     },
     {
       "id":"eid_fitr",
-      "enabled":false,
+      "enabled":true,
       "priority":100,
       "type":"celebration",
       "title":"🌙 عید سعید فطر مبارک",
