@@ -55,7 +55,7 @@
     },
     {
       "id":"eid_fitr",
-      "enabled":true,
+      "enabled":false,
       "priority":100,
       "type":"celebration",
       "title":"🌙 عید سعید فطر مبارک",
@@ -125,11 +125,11 @@
     "url":""
   },
   "notification":{
-    "enabled":false,
-    "title":"",
-    "message":"",
+    "enabled":true,
+    "title":"عنوان آزمایشی ",
+    "message":"این یه پیام آزمایشی است",
     "image":"",
-    "url":""
+    "url":"www.google.com"
   },
   "features":{
     "prayerTimes":true,
