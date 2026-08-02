@@ -1,6 +1,6 @@
 {
-  "configVersion":2,
-  "lastUpdate":"2026-08-02T12:00:00Z",
+  "configVersion":4,
+  "lastUpdate":"1405/05/11",
   "checkIntervalHours":6,
   "randomDelayMinutes":60,
   "app":{
@@ -8,7 +8,7 @@
     "maintenance":{
       "enabled":false,
       "title":"برنامه موقتاً در دسترس نیست",
-      "message":"در حال بروزرسانی و بهبود برنامه هستیم. لطفاً بعداً دوباره تلاش کنید.",
+      "message":"در حال بروزرسانی برنامه هستیم.",
       "buttonText":"خروج"
     }
   },
@@ -17,36 +17,74 @@
       "enabled":false,
       "minimumVersion":10,
       "title":"نسخه جدید ضروری است",
-      "message":"برای ادامه استفاده از برنامه لازم است آخرین نسخه را نصب کنید.",
+      "message":"برای ادامه استفاده لطفاً برنامه را بروزرسانی کنید.",
       "buttonText":"بروزرسانی",
       "storeUrl":"https://cafebazaar.ir/app/YOUR_PACKAGE_NAME"
     },
     "optionalUpdate":{
-      "enabled":false,
+      "enabled":true,
       "latestVersion":15,
       "title":"نسخه جدید منتشر شد",
-      "message":"نسخه جدید برنامه اوقات شرعی منتشر شد. پیشنهاد می‌کنیم برنامه را بروزرسانی کنید.",
-      "buttonText":"دریافت نسخه جدید",
+      "message":"امکانات جدیدی به برنامه اضافه شده است.",
+      "buttonText":"بروزرسانی",
       "cancelText":"بعداً",
       "storeUrl":"https://cafebazaar.ir/app/YOUR_PACKAGE_NAME"
     }
   },
   "messages":[
     {
-      "id":"ramadan",
+      "id":"test_popup",
       "enabled":false,
-      "priority":110,
-      "type":"celebration",
-      "title":"🌙 فرا رسیدن ماه مبارک رمضان",
-      "message":"فرا رسیدن ماه مبارک رمضان را به شما تبریک عرض می‌کنیم. از خداوند متعال قبولی طاعات و عبادات شما را مسئلت داریم.",
-      "startDate":"2027-02-08T00:00:00Z",
-      "endDate":"2027-03-10T23:59:59Z",
-      "showOnce":true,
+      "priority":100,
+      "type":"popup",
+      "title":"📢 پیام آزمایشی",
+      "message":"این یک پیام آزمایشی از راه دور است. متن، تصویر و لینک این پیام قابل تغییر است.",
+      "image":"",
+      "showOnce":false,
       "button":{
         "enabled":true,
-        "text":"سپاس",
-        "url":""
+        "text":"مشاهده",
+        "url":"https://example.com"
       },
+      "cancelButton":{
+        "enabled":true,
+        "text":"بستن"
+      }
+    },
+    {
+      "id":"test_timer",
+      "enabled":false,
+      "priority":80,
+      "type":"timed_popup",
+      "title":"⏱ پیام ویژه",
+      "message":"این پیام بعد از 10 ثانیه به صورت خودکار بسته می‌شود.",
+      "image":"",
+      "showOnce":false,
+      "timer":{
+        "enabled":true,
+        "durationSeconds":10
+      },
+      "button":{
+        "enabled":true,
+        "text":"ورود",
+        "url":"https://example.com"
+      },
+      "cancelButton":{
+        "enabled":false,
+        "text":""
+      }
+    },
+    {
+      "id":"ramadan",
+      "enabled":false,
+      "priority":150,
+      "type":"celebration",
+      "title":"🌙 ماه مبارک رمضان",
+      "message":"فرا رسیدن ماه مبارک رمضان را تبریک عرض می‌کنیم. از خداوند متعال قبولی طاعات و عبادات شما را مسئلت داریم.",
+      "image":"",
+      "startDate":"1405/11/19",
+      "endDate":"1405/12/20",
+      "showOnce":false,
       "animation":{
         "enabled":true,
         "type":"confetti",
@@ -56,18 +94,14 @@
     {
       "id":"eid_fitr",
       "enabled":false,
-      "priority":100,
+      "priority":140,
       "type":"celebration",
       "title":"🌙 عید سعید فطر مبارک",
-      "message":"عید سعید فطر را به شما و خانواده محترمتان تبریک عرض می‌کنیم.",
-      "startDate":"",
-      "endDate":"",
-      "showOnce":true,
-      "button":{
-        "enabled":true,
-        "text":"متوجه شدم",
-        "url":""
-      },
+      "message":"عید سعید فطر را به شما و خانواده محترمتان تبریک عرض می‌کنیم. امیدواریم طاعات شما مورد قبول درگاه خداوند قرار گیرد.",
+      "image":"",
+      "startDate":"1406/01/01",
+      "endDate":"1406/01/05",
+      "showOnce":false,
       "animation":{
         "enabled":true,
         "type":"confetti",
@@ -75,32 +109,10 @@
       }
     },
     {
-      "id":"eid_adha",
+      "id":"location_test",
       "enabled":false,
-      "priority":100,
-      "type":"celebration",
-      "title":"🕋 عید سعید قربان مبارک",
-      "message":"عید سعید قربان را به شما تبریک عرض می‌کنیم. امیدواریم این عید بزرگ سرشار از خیر و برکت باشد.",
-      "startDate":"2027-05-16T00:00:00Z",
-      "endDate":"2027-05-20T23:59:59Z",
-      "showOnce":true,
-      "button":{
-        "enabled":true,
-        "text":"سپاس",
-        "url":""
-      },
-      "animation":{
-        "enabled":true,
-        "type":"confetti",
-        "duration":4500
-      }
-    }
-  ],
-  "locationMessages":[
-    {
-      "id":"kurdistan_special",
-      "enabled":true,
       "priority":200,
+      "type":"location_popup",
       "cities":[
         "جوانرود",
         "ثلاث باباجانی",
@@ -108,28 +120,29 @@
         "پاوه"
       ],
       "title":"📍 پیام ویژه منطقه",
-      "message":"سلام به مردم عزیز جوانرود، ثلاث باباجانی، روانسر و پاوه. این پیام فقط برای کاربران این مناطق نمایش داده می‌شود.",
+      "message":"این پیام فقط برای مردم عزیز جوانرود، ثلاث باباجانی، روانسر و پاوه نمایش داده می‌شود.",
+      "image":"",
       "showOnce":false,
       "button":{
         "enabled":false,
-        "text":"بستن",
+        "text":"",
         "url":""
       }
     }
   ],
   "banner":{
     "enabled":false,
-    "title":"این یک بنر آزمایشی است ",
-    "message":"این متن پیام کاملا آزمایشی و صرفا برای تست برنامه استفاده شده .",
-    "image":"https://static.vecteezy.com/system/resources/previews/029/579/337/non_2x/islamic-banner-design-free-vector.jpg",
-    "url":"www.iran.ir"
+    "title":"امکانات جدید",
+    "message":"قابلیت‌های جدید برنامه را امتحان کنید.",
+    "image":"",
+    "url":"https://example.com"
   },
   "notification":{
     "enabled":false,
-    "title":"عنوان آزمایشی ",
-    "message":"این یه پیام آزمایشی است",
+    "title":"📢 اطلاعیه جدید",
+    "message":"یک پیام جدید برای شما دارید.",
     "image":"",
-    "url":"www.google.com"
+    "url":"https://example.com"
   },
   "features":{
     "prayerTimes":true,
