@@ -118,11 +118,11 @@
     }
   ],
   "banner":{
-    "enabled":false,
-    "title":"",
-    "message":"",
-    "image":"",
-    "url":""
+    "enabled":true,
+    "title":"این یک بنر آزمایشی است ",
+    "message":"این متن پیام کاملا آزمایشی و صرفا برای تست برنامه استفاده شده .",
+    "image":"https://static.vecteezy.com/system/resources/previews/029/579/337/non_2x/islamic-banner-design-free-vector.jpg",
+    "url":"www.iran.ir"
   },
   "notification":{
     "enabled":true,
