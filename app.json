@@ -1,273 +1,171 @@
 {
-  "configVersion": 1,
-  "lastUpdate": "2026-08-02T12:00:00Z",
-  "checkIntervalHours": 6,
-
-  "app": {
-    "enabled": true,
-
-    "maintenance": {
-      "enabled": false,
-      "title": "برنامه موقتاً در دسترس نیست",
-      "message": "در حال بروزرسانی و بهبود برنامه هستیم. لطفاً بعداً دوباره تلاش کنید.",
-      "buttonText": "خروج"
+  "configVersion":1,
+  "lastUpdate":"2026-08-02T12:00:00Z",
+  "checkIntervalHours":6,
+  "app":{
+    "enabled":true,
+    "maintenance":{
+      "enabled":false,
+      "title":"برنامه موقتاً در دسترس نیست",
+      "message":"در حال بروزرسانی و بهبود برنامه هستیم. لطفاً بعداً دوباره تلاش کنید.",
+      "buttonText":"خروج"
     }
   },
-
-
-  "update": {
-
-    "forceUpdate": {
-      "enabled": false,
-
-      "minimumVersion": 10,
-
-      "title": "نسخه جدید ضروری است",
-
-      "message": "برای ادامه استفاده از برنامه لازم است آخرین نسخه را نصب کنید. در نسخه جدید مشکلات برطرف شده و امکانات جدید اضافه شده است.",
-
-      "buttonText": "بروزرسانی",
-
-      "storeUrl": "https://cafebazaar.ir/app/YOUR_PACKAGE_NAME"
+  "update":{
+    "forceUpdate":{
+      "enabled":false,
+      "minimumVersion":10,
+      "title":"نسخه جدید ضروری است",
+      "message":"برای ادامه استفاده از برنامه لازم است آخرین نسخه را نصب کنید.",
+      "buttonText":"بروزرسانی",
+      "storeUrl":"https://cafebazaar.ir/app/YOUR_PACKAGE_NAME"
     },
-
-
-    "optionalUpdate": {
-      "enabled": false,
-
-      "latestVersion": 15,
-
-      "title": "نسخه جدید منتشر شد",
-
-      "message": "نسخه جدید برنامه اوقات شرعی منتشر شد. پیشنهاد می‌کنیم برای استفاده از امکانات جدید برنامه را بروزرسانی کنید.",
-
-      "buttonText": "دریافت نسخه جدید",
-
-      "cancelText": "بعداً",
-
-      "storeUrl": "https://cafebazaar.ir/app/YOUR_PACKAGE_NAME"
+    "optionalUpdate":{
+      "enabled":false,
+      "latestVersion":15,
+      "title":"نسخه جدید منتشر شد",
+      "message":"نسخه جدید برنامه اوقات شرعی منتشر شد. پیشنهاد می‌کنیم برنامه را بروزرسانی کنید.",
+      "buttonText":"دریافت نسخه جدید",
+      "cancelText":"بعداً",
+      "storeUrl":"https://cafebazaar.ir/app/YOUR_PACKAGE_NAME"
     }
-
   },
-
-
-  "messages": [
-
+  "messages":[
     {
-      "id": "eid_fitr",
-
-      "enabled": false,
-
-      "priority": 100,
-
-      "type": "celebration",
-
-      "title": "🌙 عید سعید فطر مبارک",
-
-      "message": "فرا رسیدن عید سعید فطر را به شما و خانواده محترمتان تبریک عرض می‌کنیم. از خداوند متعال قبولی طاعات و عبادات شما را مسئلت داریم.",
-
-      "startDate": "2027-03-10T00:00:00Z",
-
-      "endDate": "2027-03-15T23:59:59Z",
-
-
-      "button": {
-
-        "enabled": true,
-
-        "text": "متوجه شدم",
-
-        "url": ""
-
+      "id":"ramadan",
+      "enabled":true,
+      "priority":110,
+      "type":"celebration",
+      "title":"🌙 فرا رسیدن ماه مبارک رمضان",
+      "message":"فرا رسیدن ماه مبارک رمضان را به شما تبریک عرض می‌کنیم. از خداوند متعال قبولی طاعات و عبادات، سلامتی و خیر و برکت برای شما و خانواده محترمتان مسئلت داریم.",
+      "startDate":"",
+      "endDate":"",
+      "button":{
+        "enabled":true,
+        "text":"بستن",
+        "url":""
       },
-
-
-      "animation": {
-
-        "enabled": true,
-
-        "type": "confetti",
-
-        "duration": 4500
-
+      "animation":{
+        "enabled":true,
+        "type":"confetti",
+        "duration":4500
       },
-
-
-      "showOnce": true
-
+      "sound":{
+        "enabled":false
+      },
+      "showOnce":true
     },
-
-
     {
-      "id": "eid_adha",
-
-      "enabled": false,
-
-      "priority": 100,
-
-      "type": "celebration",
-
-      "title": "🕋 عید سعید قربان مبارک",
-
-      "message": "عید سعید قربان را به شما تبریک عرض می‌کنیم. امیدواریم این عید بزرگ سرشار از خیر، برکت و آرامش برای شما و خانواده‌تان باشد.",
-
-      "startDate": "2027-05-16T00:00:00Z",
-
-      "endDate": "2027-05-20T23:59:59Z",
-
-
-      "button": {
-
-        "enabled": true,
-
-        "text": "سپاس",
-
-        "url": ""
-
+      "id":"eid_fitr",
+      "enabled":false,
+      "priority":100,
+      "type":"celebration",
+      "title":"🌙 عید سعید فطر مبارک",
+      "message":"فرا رسیدن عید سعید فطر را به شما و خانواده محترمتان تبریک عرض می‌کنیم. از خداوند متعال قبولی طاعات و عبادات شما را مسئلت داریم.",
+      "startDate":"2027-03-10T00:00:00Z",
+      "endDate":"2027-03-15T23:59:59Z",
+      "button":{
+        "enabled":true,
+        "text":"متوجه شدم",
+        "url":""
       },
-
-
-      "animation": {
-
-        "enabled": true,
-
-        "type": "confetti",
-
-        "duration": 4500
-
+      "animation":{
+        "enabled":true,
+        "type":"confetti",
+        "duration":4500
       },
-
-
-      "showOnce": true
-
+      "sound":{
+        "enabled":false
+      },
+      "showOnce":true
     },
-
-
     {
-      "id": "general_notice",
-
-      "enabled": false,
-
-      "priority": 50,
-
-      "type": "popup",
-
-      "title": "📢 اطلاعیه",
-
-      "message": "متن اطلاعیه خود را اینجا بنویسید.",
-
-      "startDate": "",
-
-      "endDate": "",
-
-
-      "button": {
-
-        "enabled": false,
-
-        "text": "",
-
-        "url": ""
-
+      "id":"eid_adha",
+      "enabled":false,
+      "priority":100,
+      "type":"celebration",
+      "title":"🕋 عید سعید قربان مبارک",
+      "message":"عید سعید قربان را به شما تبریک عرض می‌کنیم. امیدواریم این عید بزرگ سرشار از خیر، برکت و آرامش برای شما و خانواده‌تان باشد.",
+      "startDate":"2027-05-16T00:00:00Z",
+      "endDate":"2027-05-20T23:59:59Z",
+      "button":{
+        "enabled":true,
+        "text":"سپاس",
+        "url":""
       },
-
-
-      "showOnce": true
-
+      "animation":{
+        "enabled":true,
+        "type":"confetti",
+        "duration":4500
+      },
+      "sound":{
+        "enabled":false
+      },
+      "showOnce":true
     },
-
-
     {
-      "id": "telegram_channel",
-
-      "enabled": false,
-
-      "priority": 40,
-
-      "type": "popup",
-
-      "title": "📱 کانال رسمی ما",
-
-      "message": "برای دریافت اخبار و بروزرسانی‌های برنامه عضو کانال ما شوید.",
-
-
-      "button": {
-
-        "enabled": true,
-
-        "text": "عضویت در کانال",
-
-        "url": "https://t.me/YOUR_CHANNEL"
-
+      "id":"general_notice",
+      "enabled":false,
+      "priority":50,
+      "type":"popup",
+      "title":"📢 اطلاعیه",
+      "message":"متن اطلاعیه خود را اینجا بنویسید.",
+      "startDate":"",
+      "endDate":"",
+      "button":{
+        "enabled":false,
+        "text":"",
+        "url":""
       },
-
-
-      "showOnce": true
-
+      "animation":{
+        "enabled":true,
+        "type":"scale",
+        "duration":300
+      },
+      "showOnce":true
+    },
+    {
+      "id":"telegram_channel",
+      "enabled":false,
+      "priority":40,
+      "type":"popup",
+      "title":"📱 کانال رسمی ما",
+      "message":"برای دریافت اخبار و بروزرسانی‌های برنامه عضو کانال ما شوید.",
+      "button":{
+        "enabled":true,
+        "text":"عضویت در کانال",
+        "url":"https://t.me/YOUR_CHANNEL"
+      },
+      "showOnce":true
     }
-
   ],
-
-
-  "banner": {
-
-    "enabled": false,
-
-    "title": "عنوان بنر",
-
-    "message": "متن بنر",
-
-    "image": "",
-
-    "url": ""
-
+  "banner":{
+    "enabled":false,
+    "title":"",
+    "message":"",
+    "image":"",
+    "url":""
   },
-
-
-  "notification": {
-
-    "enabled": false,
-
-    "title": "",
-
-    "message": "",
-
-    "image": "",
-
-    "url": ""
-
+  "notification":{
+    "enabled":false,
+    "title":"",
+    "message":"",
+    "image":"",
+    "url":""
   },
-
-
-  "features": {
-
-    "prayerTimes": true,
-
-    "adhan": true,
-
-    "qibla": true,
-
-    "calendar": true,
-
-    "tasbih": true,
-
-    "radio": false
-
+  "features":{
+    "prayerTimes":true,
+    "adhan":true,
+    "qibla":true,
+    "calendar":true,
+    "tasbih":true,
+    "radio":false
   },
-
-
-  "links": {
-
-    "telegram": "https://t.me/YOUR_CHANNEL",
-
-    "instagram": "",
-
-    "website": "",
-
-    "support": "",
-
-    "privacyPolicy": ""
-
+  "links":{
+    "telegram":"https://t.me/YOUR_CHANNEL",
+    "instagram":"",
+    "website":"",
+    "support":"",
+    "privacyPolicy":""
   }
-
 }
