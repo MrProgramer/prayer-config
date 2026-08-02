@@ -14,7 +14,7 @@
   },
   "update":{
     "forceUpdate":{
-      "enabled":true,
+      "enabled":false,
       "minimumVersion":10,
       "title":"نسخه جدید ضروری است",
       "message":"برای ادامه استفاده لطفاً برنامه را بروزرسانی کنید.",
@@ -91,6 +91,36 @@
         "duration":20000
       }
     },
+    {
+      "id":"eid_fitr",
+      "enabled":true,
+      "priority":150,
+      "type":"celebration",
+      "title":"🌙 عید سعید فطر مبارک",
+      "message":"حلول عید سعید فطر، عید بندگی و شکرگزاری را به شما و خانواده گرامی تبریک عرض می‌کنیم. از خداوند متعال قبولی طاعات و عبادات، سلامتی، آرامش و برکت را برای شما مسئلت داریم.",
+      "image":"",
+      "startDate":"https://static.vecteezy.com/system/resources/thumbnails/022/170/068/small/eid-al-fitr-mubarak-greeting-islamic-ornament-template-for-background-banner-poster-cover-design-envelope-social-media-feed-ramadan-kareem-and-eid-mubarak-2023-concept-vector.jpg",
+      "endDate":"",
+      "showOnce":false,
+      "button":{
+        "enabled":false,
+        "text":"",
+        "url":""
+      },
+      "cancelButton":{
+        "enabled":true,
+        "text":"بستن"
+      },
+      "animation":{
+        "enabled":true,
+        "type":"flower_rain",
+        "duration":600000,
+        "count":80
+      },
+      "sound":{
+        "enabled":true
+      }
+}
     {
       "id":"eid_fitr",
       "enabled":false,
