@@ -53,13 +53,13 @@
     },
     {
       "id":"test_timer",
-      "enabled":true,
+      "enabled":false,
       "priority":80,
       "type":"timed_popup",
       "title":"⏱ پیام ویژه",
       "message":"این پیام بعد از 10 ثانیه به صورت خودکار بسته می‌شود.",
       "image":"https://static.vecteezy.com/system/resources/previews/029/579/337/non_2x/islamic-banner-design-free-vector.jpg",
-      "showOnce":false,
+      "showOnce":true,
       "timer":{
         "enabled":true,
         "durationSeconds":10
@@ -76,7 +76,7 @@
     },
     {
       "id":"ramadan",
-      "enabled":false,
+      "enabled":true,
       "priority":150,
       "type":"celebration",
       "title":"🌙 ماه مبارک رمضان",
@@ -84,7 +84,7 @@
       "image":"",
       "startDate":"1405/11/19",
       "endDate":"1405/12/20",
-      "showOnce":false,
+      "showOnce":true,
       "animation":{
         "enabled":true,
         "type":"confetti",
