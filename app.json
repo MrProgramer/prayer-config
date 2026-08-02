@@ -34,13 +34,13 @@
   "messages":[
     {
       "id":"test_popup",
-      "enabled":true,
+      "enabled":false,
       "priority":100,
       "type":"popup",
       "title":"📢 پیام آزمایشی",
       "message":"این یک پیام آزمایشی از راه دور است. متن، تصویر و لینک این پیام قابل تغییر است.",
       "image":"",
-      "showOnce":false,
+      "showOnce":true,
       "button":{
         "enabled":true,
         "text":"مشاهده",
@@ -53,12 +53,12 @@
     },
     {
       "id":"test_timer",
-      "enabled":false,
+      "enabled":true,
       "priority":80,
       "type":"timed_popup",
       "title":"⏱ پیام ویژه",
       "message":"این پیام بعد از 10 ثانیه به صورت خودکار بسته می‌شود.",
-      "image":"",
+      "image":"https://static.vecteezy.com/system/resources/previews/029/579/337/non_2x/islamic-banner-design-free-vector.jpg",
       "showOnce":false,
       "timer":{
         "enabled":true,
