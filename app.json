@@ -22,13 +22,18 @@
       "storeUrl":"https://cafebazaar.ir/app/YOUR_PACKAGE_NAME"
     },
     "optionalUpdate":{
-      "enabled":false,
+      "enabled":true,
       "latestVersion":15,
       "title":"نسخه جدید منتشر شد",
       "message":"امکانات جدیدی به برنامه اضافه شده است.",
       "buttonText":"بروزرسانی",
       "cancelText":"بعداً",
       "storeUrl":"https://cafebazaar.ir/app/YOUR_PACKAGE_NAME"
+       "animation":{
+        "enabled":true,
+        "type":"gear",
+        "duration":20000
+      }
     }
   },
   "messages":[
@@ -93,7 +98,7 @@
     },
     {
       "id":"eid_fitr",
-      "enabled":true,
+      "enabled":false,
       "priority":140,
       "type":"celebration",
       "title":"🌙 عید سعید فطر مبارک",
