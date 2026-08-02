@@ -5,7 +5,7 @@
   "app":{
     "enabled":true,
     "maintenance":{
-      "enabled":false,
+      "enabled":true,
       "title":"برنامه موقتاً در دسترس نیست",
       "message":"در حال بروزرسانی و بهبود برنامه هستیم. لطفاً بعداً دوباره تلاش کنید.",
       "buttonText":"خروج"
