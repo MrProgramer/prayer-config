@@ -88,7 +88,7 @@
       "animation":{
         "enabled":true,
         "type":"confetti",
-        "duration":4500
+        "duration":10500
       }
     },
     {
