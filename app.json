@@ -28,12 +28,7 @@
       "message":"امکانات جدیدی به برنامه اضافه شده است.",
       "buttonText":"بروزرسانی",
       "cancelText":"بعداً",
-      "storeUrl":"https://cafebazaar.ir/app/YOUR_PACKAGE_NAME",
-       "animation":{
-        "enabled":true,
-        "type":"gear",
-        "duration":20000
-      }
+      "storeUrl":"https://cafebazaar.ir/app/YOUR_PACKAGE_NAME"
     }
   },
   "messages":[
