@@ -53,7 +53,7 @@
     },
     {
       "id":"test_timer",
-      "enabled":true,
+      "enabled":false,
       "priority":80,
       "type":"timed_popup",
       "title":"پیام ویژه",
