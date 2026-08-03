@@ -76,7 +76,7 @@
     },
     {
       "id":"ramadan",
-      "enabled":true,
+      "enabled":false,
       "priority":150,
       "type":"celebration",
       "title":"🌙 ماه مبارک رمضان",
@@ -93,7 +93,7 @@
     },
     {
       "id":"eid_fitr",
-      "enabled":false,
+      "enabled":true,
       "priority":150,
       "type":"celebration",
       "title":"🌙 عید سعید فطر مبارک",
