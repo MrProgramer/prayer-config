@@ -34,7 +34,7 @@
   "messages":[
     {
       "id":"test_popup",
-      "enabled":true,
+      "enabled":false,
       "priority":100,
       "type":"popup",
       "title":"📢 پیام آزمایشی",
