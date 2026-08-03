@@ -40,7 +40,7 @@
       "title":"📢 پیام آزمایشی",
       "message":"این یک پیام آزمایشی از راه دور است. متن، تصویر و لینک این پیام قابل تغییر است.",
       "image":"",
-      "showOnce":flase,
+      "showOnce":false,
       "button":{
         "enabled":true,
         "text":"مشاهده",
