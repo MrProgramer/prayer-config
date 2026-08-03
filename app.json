@@ -72,11 +72,12 @@
       "cancelButton":{
         "enabled":false,
         "text":""
-      }
+      },
+      "sound":""
     },
     {
       "id":"ramadan",
-      "enabled":true,
+      "enabled":false,
       "priority":150,
       "type":"celebration",
       "title":"🌙 ماه مبارک رمضان",
@@ -89,7 +90,8 @@
         "enabled":true,
         "type":"confetti",
         "duration":20000
-      }
+      },
+      "sound":""
     },
     {
       "id":"eid_fitr",
@@ -117,13 +119,11 @@
         "duration":600000,
         "count":80
       },
-      "sound":{
-        "enabled":true
-      }
+      "sound":""
 },
     {
       "id":"eid_fitr",
-      "enabled":true,
+      "enabled":false,
       "priority":140,
       "type":"celebration",
       "title":"🌙 عید سعید فطر مبارک",
@@ -136,8 +136,36 @@
         "enabled":true,
         "type":"fireworks",
         "duration":45000
-      }
+      },
+      "sound":""
     },
+    {
+        "id":"eid_adha",
+        "enabled":true,
+        "priority":150,
+        "type":"celebration",
+        "title":"🕋 عید سعید قربان مبارک",
+        "message":"عید سعید قربان، عید بندگی، ایثار و تسلیم در برابر فرمان الهی را به شما و خانواده گرامی تبریک عرض می‌کنیم. از خداوند متعال قبولی عبادات، سلامتی، آرامش، خیر و برکت را برای شما و عزیزانتان مسئلت داریم.",
+        "image":"https://cdn.ngopibareng.id/uploads/2023/2023-05-29/9-hal-penting-tentnag-kurban-dan-problematikanya--thumbnail-697",
+        "startDate":"",
+        "endDate":"",
+        "showOnce":false,
+        "button":{
+          "enabled":false,
+          "text":"",
+          "url":""
+        },
+        "cancelButton":{
+          "enabled":true,
+          "text":"بستن"
+        },
+        "animation":{
+          "enabled":true,
+          "type":"sparkles",
+          "duration":100000
+        },
+        "sound":""
+    }
     {
       "id":"location_test",
       "enabled":false,
