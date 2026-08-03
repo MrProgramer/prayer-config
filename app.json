@@ -76,7 +76,7 @@
     },
     {
       "id":"ramadan",
-      "enabled":false,
+      "enabled":true,
       "priority":150,
       "type":"celebration",
       "title":"🌙 ماه مبارک رمضان",
