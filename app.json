@@ -150,7 +150,7 @@
     },
     {
       "id":"ashura_fasting",
-      "enabled":true,
+      "enabled":false,
       "priority":160,
       "type":"educational",
       "displayMode":"full",
@@ -159,7 +159,6 @@
       "image":"https://ukim-live.storage.googleapis.com/upload/www.ukim.org/media-centre/latest-news-%26-updates/ramadan_mosque.jpg",
       "startDate":"",
       "endDate":"",
-      "sound":"https://dl4.fara-download.ir/audio/sound_effect/alarms/phone/iphone/iphone%20message%20sound.mp3",
       "compact":{
         "title":"فردا روز عاشورا است",
         "message":"فردا روز عاشورا (۱۰ محرم) است. روزه این روز از سنت‌های مؤکد بوده و سبب آمرزش گناهان یک سال گذشته می‌شود.",
