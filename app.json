@@ -93,7 +93,7 @@
     },
     {
       "id":"eid_fitr",
-      "enabled":true,
+      "enabled":false,
       "priority":150,
       "type":"celebration",
       "title":"🌙 عید سعید فطر مبارک",
@@ -123,7 +123,7 @@
 },
     {
       "id":"eid_fitr",
-      "enabled":false,
+      "enabled":true,
       "priority":140,
       "type":"celebration",
       "title":"🌙 عید سعید فطر مبارک",
@@ -131,7 +131,7 @@
       "image":"https://media.istockphoto.com/id/1498294247/vector/qurban-in-eid-al-adha-mubarak-with-mosque-and-cow-as-background.jpg?s=612x612&w=0&k=20&c=OVgKclSlH1frKGBHMrh0XX5zqGTA-vBPKrMODkQTl7g=",
       "startDate":"",
       "endDate":"",
-      "showOnce":true,
+      "showOnce":false,
       "animation":{
         "enabled":true,
         "type":"fireworks",
