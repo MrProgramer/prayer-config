@@ -159,6 +159,7 @@
       "image":"https://ukim-live.storage.googleapis.com/upload/www.ukim.org/media-centre/latest-news-%26-updates/ramadan_mosque.jpg",
       "startDate":"",
       "endDate":"",
+      "sound":"https://soundsnap.ir/sound/alert-44/download",
       "compact":{
         "title":"فردا روز عاشورا است",
         "message":"فردا روز عاشورا (۱۰ محرم) است. روزه این روز از سنت‌های مؤکد بوده و سبب آمرزش گناهان یک سال گذشته می‌شود.",
@@ -182,7 +183,7 @@
         "enabled":true,
         "text":"بستن"
       }
-}
+    },
     {
       "id":"location_test",
       "enabled":false,
