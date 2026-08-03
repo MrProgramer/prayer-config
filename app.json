@@ -153,10 +153,10 @@
       "enabled":true,
       "priority":160,
       "type":"educational",
-      "displayMode":"compact",
+      "displayMode":"full",
       "showOnce":false,
       "title":"🌙 یادآوری روزه عاشورا",
-      "image":"",
+      "image":"https://ukim-live.storage.googleapis.com/upload/www.ukim.org/media-centre/latest-news-%26-updates/ramadan_mosque.jpg",
       "startDate":"",
       "endDate":"",
       "compact":{
