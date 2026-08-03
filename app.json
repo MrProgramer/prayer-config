@@ -34,7 +34,7 @@
   "messages":[
     {
       "id":"test_popup",
-      "enabled":false,
+      "enabled":true,
       "priority":100,
       "type":"popup",
       "title":"📢 پیام آزمایشی",
@@ -53,13 +53,13 @@
     },
     {
       "id":"test_timer",
-      "enabled":false,
+      "enabled":true,
       "priority":80,
       "type":"timed_popup",
-      "title":"⏱ پیام ویژه",
+      "title":"پیام ویژه",
       "message":"این پیام بعد از 10 ثانیه به صورت خودکار بسته می‌شود.",
       "image":"https://static.vecteezy.com/system/resources/previews/029/579/337/non_2x/islamic-banner-design-free-vector.jpg",
-      "showOnce":true,
+      "showOnce":false,
       "timer":{
         "enabled":true,
         "durationSeconds":10
@@ -164,13 +164,15 @@
     "enabled":false,
     "title":"امکانات جدید",
     "message":"قابلیت‌های جدید برنامه را امتحان کنید.",
-    "image":"",
+    "image":"https://png.pngtree.com/thumb_back/fh260/background/20240125/pngtree-ramadan-banner-with-mosque-and-natural-landscape-image_15575460.png",
+    "showOnce":false,
     "url":"https://example.com"
   },
   "notification":{
     "enabled":false,
     "title":"📢 اطلاعیه جدید",
     "message":"یک پیام جدید برای شما دارید.",
+     "showOnce":false,
     "image":"",
     "url":"https://example.com"
   },
