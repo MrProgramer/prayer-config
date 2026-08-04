@@ -9,7 +9,11 @@
       "enabled":false,
       "title":"برنامه موقتاً در دسترس نیست",
       "message":"در حال بروزرسانی برنامه هستیم.",
-      "buttonText":"خروج"
+      "buttonText":"خروج",
+      "notify":{
+        "enabled":false,
+        "text":"یک پیام دارید لطفا برنامه رو باز کنید."
+        }
     }
   },
   "update":{
@@ -19,7 +23,11 @@
       "title":"نسخه جدید ضروری است",
       "message":"برای ادامه استفاده لطفاً برنامه را بروزرسانی کنید.",
       "buttonText":"بروزرسانی",
-      "storeUrl":"https://cafebazaar.ir/app/YOUR_PACKAGE_NAME"
+      "storeUrl":"https://cafebazaar.ir/app/YOUR_PACKAGE_NAME",
+      "notify":{
+        "enabled":false,
+        "text":"یک پیام دارید لطفا برنامه رو باز کنید."
+        }
     },
     "optionalUpdate":{
       "enabled":false,
@@ -28,7 +36,11 @@
       "message":"امکانات جدیدی به برنامه اضافه شده است.",
       "buttonText":"بروزرسانی",
       "cancelText":"بعداً",
-      "storeUrl":"https://cafebazaar.ir/app/YOUR_PACKAGE_NAME"
+      "storeUrl":"https://cafebazaar.ir/app/YOUR_PACKAGE_NAME",
+      "notify":{
+        "enabled":false,
+        "text":"یک پیام دارید لطفا برنامه رو باز کنید."
+        }
     }
   },
   "messages":[
@@ -46,6 +58,10 @@
         "text":"مشاهده",
         "url":"https://example.com"
       },
+      "notify":{
+        "enabled":false,
+        "text":"یک پیام دارید لطفا برنامه رو باز کنید."
+        },
       "cancelButton":{
         "enabled":true,
         "text":"بستن"
@@ -60,6 +76,10 @@
       "message":"این پیام بعد از 10 ثانیه به صورت خودکار بسته می‌شود.",
       "image":"https://static.vecteezy.com/system/resources/previews/029/579/337/non_2x/islamic-banner-design-free-vector.jpg",
       "showOnce":false,
+      "notify":{
+        "enabled":false,
+        "text":"یک پیام دارید لطفا برنامه رو باز کنید."
+        },
       "timer":{
         "enabled":true,
         "durationSeconds":10
@@ -73,7 +93,6 @@
         "enabled":false,
         "text":""
       },
-      "sound":""
     },
     {
       "id":"ramadan",
@@ -86,12 +105,15 @@
       "startDate":"",
       "endDate":"",
       "showOnce":true,
+      "notify":{
+        "enabled":false,
+        "text":"یک پیام دارید لطفا برنامه رو باز کنید."
+        },
       "animation":{
         "enabled":true,
         "type":"confetti",
         "duration":20000
       },
-      "sound":""
     },
     {
       "id":"eid_fitr",
@@ -104,6 +126,10 @@
       "startDate":"",
       "endDate":"",
       "showOnce":false,
+      "notify":{
+        "enabled":true,
+        "text":"🌙 عید سعید فطر مبارک"
+        },
       "button":{
         "enabled":false,
         "text":"",
@@ -132,6 +158,10 @@
         "startDate":"",
         "endDate":"",
         "showOnce":false,
+        "notify":{
+          "enabled":false,
+          "text":"یک پیام دارید لطفا برنامه رو باز کنید."
+        },
         "button":{
           "enabled":false,
           "text":"",
@@ -155,6 +185,10 @@
       "type":"educational",
       "displayMode":"full",
       "showOnce":false,
+        "notify":{
+          "enabled":false,
+          "text":"یک پیام دارید لطفا برنامه رو باز کنید."
+        },
       "title":"🌙 یادآوری روزه عاشورا",
       "image":"https://ukim-live.storage.googleapis.com/upload/www.ukim.org/media-centre/latest-news-%26-updates/ramadan_mosque.jpg",
       "startDate":"",
@@ -198,6 +232,10 @@
       "message":"این پیام فقط برای مردم عزیز جوانرود، ثلاث باباجانی، روانسر و پاوه نمایش داده می‌شود.",
       "image":"",
       "showOnce":false,
+        "notify":{
+          "enabled":false,
+          "text":"یک پیام دارید لطفا برنامه رو باز کنید."
+        },
       "button":{
         "enabled":false,
         "text":"",
