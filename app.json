@@ -123,7 +123,7 @@
     },
     {
         "id":"eid_adha",
-        "enabled":true,
+        "enabled":false,
         "priority":500,
         "type":"celebration",
         "title":"🕋 عید سعید قربان مبارک",
