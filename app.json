@@ -252,7 +252,7 @@
     "url":"https://example.com"
   },
   "notification":{
-    "enabled":true,
+    "enabled":false,
     "title":"📢 اطلاعیه جدید",
     "message":"یک پیام جدید برای شما دارید.",
      "showOnce":false,
