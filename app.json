@@ -92,7 +92,7 @@
       "cancelButton":{
         "enabled":false,
         "text":""
-      },
+      }
     },
     {
       "id":"ramadan",
