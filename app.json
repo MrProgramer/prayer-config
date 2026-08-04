@@ -123,7 +123,7 @@
     },
     {
         "id":"eid_adha",
-        "enabled":false,
+        "enabled":true,
         "priority":500,
         "type":"celebration",
         "title":"🕋 عید سعید قربان مبارک",
@@ -131,7 +131,7 @@
         "image":"https://cdn.ngopibareng.id/uploads/2023/2023-05-29/9-hal-penting-tentnag-kurban-dan-problematikanya--thumbnail-697",
         "startDate":"",
         "endDate":"",
-        "showOnce":false,
+        "showOnce":true,
         "button":{
           "enabled":false,
           "text":"",
@@ -150,7 +150,7 @@
     },
     {
       "id":"ashura_fasting",
-      "enabled":true,
+      "enabled":false,
       "priority":160,
       "type":"educational",
       "displayMode":"full",
