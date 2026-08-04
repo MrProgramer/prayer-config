@@ -150,7 +150,7 @@
     },
     {
       "id":"ashura_fasting",
-      "enabled":false,
+      "enabled":true,
       "priority":160,
       "type":"educational",
       "displayMode":"full",
