@@ -113,7 +113,7 @@
         "enabled":true,
         "type":"confetti",
         "duration":20000
-      },
+      }
     },
     {
       "id":"eid_fitr",
