@@ -96,7 +96,7 @@
     },
     {
       "id":"ramadan",
-      "enabled":false,
+      "enabled":true,
       "priority":150,
       "type":"celebration",
       "title":"🌙 ماه مبارک رمضان",
@@ -106,8 +106,8 @@
       "endDate":"",
       "showOnce":true,
       "notify":{
-        "enabled":false,
-        "text":"یک پیام دارید لطفا برنامه رو باز کنید."
+        "enabled":true,
+        "text":"فرا رسیدن ماه مبارک رمضان بر تمام مسلمانان مبارک باد 🌹 ."
         },
       "animation":{
         "enabled":true,
@@ -117,7 +117,7 @@
     },
     {
       "id":"eid_fitr",
-      "enabled":true,
+      "enabled":false,
       "priority":150,
       "type":"celebration",
       "title":"🌙 عید سعید فطر مبارک",
