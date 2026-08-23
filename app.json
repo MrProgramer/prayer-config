@@ -243,13 +243,39 @@
       }
     }
   ],
-  "banner":{
-    "enabled":true,
-    "title":"امکانات جدید",
-    "message":"قابلیت‌های جدید برنامه را امتحان کنید.",
-    "image":"https://png.pngtree.com/thumb_back/fh260/background/20240125/pngtree-ramadan-banner-with-mosque-and-natural-landscape-image_15575460.png",
-    "showOnce":false,
-    "url":"https://example.com"
+  "banner": {
+    "enabled": true,
+    "title": "جشنواره فروشگاه اسلامی",
+    "message": "جهت مشاهده محصولات جدید و دریافت کد تخفیف ویژه همراهان برنامه، کلیک کنید.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=600&q=80",
+    "url": "https://t.me/your_telegram_channel"
+  },
+
+  "ramadanCountdown": {
+    "enabled": true,
+    "title": "روزشمار رمضان مبارک",
+    "subtitle": "مانده تا ماه مبارک رحمت و مغفرت",
+    "targetDate": "1405-06-01:00:00:00",
+    "startDate": "1405-06-01:00:00:00",
+    "endDate": "1405-06-28:00:00:00",
+    "icon": "🌙",
+    "url": "https://t.me/your_telegram_channel"
+  },
+
+  "sponsorAd": {
+    "enabled": true,
+    "id": "sponsor_shop_2026",
+    "type": "splash_ad",
+    "title": "فروشگاه بزرگ سجاده و پوشاک اسلامی",
+    "description": "بزرگترین مرکز ارائه سجاده‌های طبی، عطر الحرمین، کتب مذهبی و پوشاک سنتی با ارسال رایگان به سراسر کشور.",
+    "image": "https://images.unsplash.com/photo-1563013544-824ae1d704d3?auto=format&fit=crop&w=800&q=80",
+    "durationSeconds": 10,
+    "forceUserToWait": true,
+    "telegramUrl": "https://t.me/shop_telegram_id",
+    "instagramUrl": "https://instagram.com/shop_instagram_id",
+    "websiteUrl": "https://yourshop.com",
+    "address": "تهران، بازار بزرگ، سرای ملی، پلاک ۱۲",
+    "phone": "۰۲۱-۱۲۳۴۵۶۷۸"
   },
   "notification":{
     "enabled":false,
