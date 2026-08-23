@@ -244,7 +244,7 @@
     }
   ],
   "banner": {
-    "enabled": true,
+    "enabled": false,
     "title": "جشنواره فروشگاه اسلامی",
     "message": "جهت مشاهده محصولات جدید و دریافت کد تخفیف ویژه همراهان برنامه، کلیک کنید.",
     "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=600&q=80",
