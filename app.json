@@ -96,7 +96,7 @@
     },
     {
       "id":"ramadan",
-      "enabled":true,
+      "enabled":false,
       "priority":150,
       "type":"celebration",
       "title":"🌙 ماه مبارک رمضان",
@@ -244,7 +244,7 @@
     }
   ],
   "banner":{
-    "enabled":false,
+    "enabled":true,
     "title":"امکانات جدید",
     "message":"قابلیت‌های جدید برنامه را امتحان کنید.",
     "image":"https://png.pngtree.com/thumb_back/fh260/background/20240125/pngtree-ramadan-banner-with-mosque-and-natural-landscape-image_15575460.png",
