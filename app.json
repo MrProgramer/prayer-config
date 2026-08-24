@@ -276,6 +276,15 @@
     "phone": "۰۲۱-۱۲۳۴۵۶۷۸",
     "showOnce":false
   },
+  "occasion": {
+  "enabled": true,
+  "type": "mourning",
+  "title": "تسلیت باد",
+  "subtitle": "سالروز شهادت امیرالمؤمنین حضرت علی (ع) تسلیت باد",
+  "ribbonText": "تسلیت",
+  "icon": "🏴"
+  }
+  ,
   "notification":{
     "enabled":false,
     "title":"📢 اطلاعیه جدید",
