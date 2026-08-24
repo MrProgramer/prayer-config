@@ -261,7 +261,7 @@
     "url": ""
   },
   "sponsorAd": {
-    "enabled": true,
+    "enabled": false,
     "id": "sponsor_shop_2026",
     "type": "splash_ad",
     "title": "فروشگاه بزرگ سجاده و پوشاک اسلامی",
