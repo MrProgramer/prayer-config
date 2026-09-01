@@ -250,10 +250,11 @@
     "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=600&q=80",
     "url": "https://t.me/your_telegram_channel"
   },
-    "ramadanCountdown": {
+  "ramadanCountdown": {
     "enabled": true,
-    "style": "large",
+    "style": "small",
     "countdown_days": 0,
+    "ending_countdown_days": 10,
     "save_offline": false,
     "title": "روز شمار رمضان",
     "subtitle": "مانده تا ماه مبارک رمضان",
