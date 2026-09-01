@@ -265,7 +265,7 @@
     "endDate": "1405-07-11T23:59:59"
   },
   "sponsorAd": {
-    "enabled": true,
+    "enabled": false,
     "id": "sponsor_shop_2026",
     "type": "splash_ad",
     "title": "فروشگاه بزرگ سجاده و پوشاک اسلامی",
