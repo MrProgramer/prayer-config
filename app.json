@@ -271,14 +271,15 @@
     "title": "فروشگاه بزرگ سجاده و پوشاک اسلامی",
     "description": "بزرگترین مرکز ارائه سجاده‌های طبی، عطر الحرمین، کتب مذهبی و پوشاک سنتی با ارسال رایگان به سراسر کشور.",
     "image": "https://static.vecteezy.com/system/resources/previews/029/579/336/non_2x/elegant-islamic-banner-and-background-design-free-vector.jpg",
-    "durationSeconds": 10,
+    "durationSeconds": 5,
     "forceUserToWait": true,
+    "autoEnter": true,
+    "showOnce": false,
     "telegramUrl": "https://t.me/shop_telegram_id",
     "instagramUrl": "https://instagram.com/shop_instagram_id",
     "websiteUrl": "https://yourshop.com",
     "address": "تهران، بازار بزرگ، سرای ملی، پلاک ۱۲",
-    "phone": "۰۲۱-۱۲۳۴۵۶۷۸",
-    "showOnce":false
+    "phone": "۰۲۱-۱۲۳۴۵۶۷۸"
   },
   "notification":{
     "enabled":false,
