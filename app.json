@@ -253,7 +253,7 @@
     "ramadanCountdown": {
     "enabled": true,
     "style": "small",
-    "countdown_days": 5,
+    "countdown_days": 0,
     "save_offline": false,
     "title": "روز شمار رمضان",
     "subtitle": "مانده تا ماه مبارک رمضان",
