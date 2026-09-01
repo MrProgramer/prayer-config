@@ -252,9 +252,9 @@
   },
   "ramadanCountdown": {
     "enabled": true,
-    "style": "small",
+    "style": "large",
     "countdown_days": 0,
-    "ending_countdown_days": 10,
+    "ending_countdown_days": 5,
     "save_offline": false,
     "title": "روز شمار رمضان",
     "subtitle": "مانده تا ماه مبارک رمضان",
@@ -265,7 +265,7 @@
     "endDate": "1405-06-30T23:59:59"
   },
   "sponsorAd": {
-    "enabled": false,
+    "enabled": true,
     "id": "sponsor_shop_2026",
     "type": "splash_ad",
     "title": "فروشگاه بزرگ سجاده و پوشاک اسلامی",
