@@ -252,7 +252,7 @@
   },
   "ramadanCountdown": {
     "enabled": true,
-    "style": "large",
+    "style": "small",
     "countdown_days": 2,
     "ending_countdown_days": 3,
     "save_offline": false,
