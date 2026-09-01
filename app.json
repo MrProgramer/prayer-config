@@ -253,14 +253,14 @@
   "ramadanCountdown": {
     "enabled": true,
     "style": "large",
-    "countdown_days": 2,
+    "countdown_days": 0,
     "ending_countdown_days": 3,
     "save_offline": false,
     "title": "روز شمار رمضان",
     "subtitle": "مانده تا ماه مبارک رمضان",
     "badge_text": "ماه رمضان",
     "icon": "🌙",
-    "startDate": "1405-06-10T00:00:00",
+    "startDate": "1405-06-12T00:00:00",
     "targetDate": "1405-06-12T00:00:00",
     "endDate": "1405-07-11T23:59:59"
   },
