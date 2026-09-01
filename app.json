@@ -250,20 +250,19 @@
     "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=600&q=80",
     "url": "https://t.me/your_telegram_channel"
   },
-"ramadan_countdown": {
+    "ramadanCountdown": {
     "enabled": true,
-    "style": "large",
-    "save_offline": false,
-    "badge_text": "ماه رمضان",
-    "title": "روزشمار ماه مبارک رمضان",
-    "subtitle": "مانده تا ماه مبارک رمضان",
+    "style": "small",
     "countdown_days": 5,
+    "save_offline": false,
+    "title": "روز شمار رمضان",
+    "subtitle": "مانده تا ماه مبارک رمضان",
+    "badge_text": "ماه رمضان",
+    "icon": "🌙",
     "startDate": "1405-06-01:00:00:00",
     "targetDate": "1405-06-21:00:00:00",
-    "endDate": "1405-06-30:00:00:00",
-    "icon": "🌙",
-    "url": ""
-},
+    "endDate": "1405-06-30:00:00:00"
+  },
   "sponsorAd": {
     "enabled": false,
     "id": "sponsor_shop_2026",
