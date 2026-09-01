@@ -252,7 +252,7 @@
   },
     "ramadanCountdown": {
     "enabled": true,
-    "style": "small",
+    "style": "large",
     "countdown_days": 0,
     "save_offline": false,
     "title": "روز شمار رمضان",
