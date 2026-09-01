@@ -252,7 +252,7 @@
   },
 "ramadan_countdown": {
     "enabled": true,
-    "style": "small",
+    "style": "large",
     "save_offline": false,
     "badge_text": "ماه رمضان",
     "title": "روزشمار ماه مبارک رمضان",
