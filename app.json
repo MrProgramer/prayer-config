@@ -219,7 +219,7 @@
     },
     {
       "id":"location_test",
-      "enabled":false,
+      "enabled":true,
       "priority":200,
       "type":"location_popup",
       "cities":[
@@ -269,7 +269,7 @@
     "countdown_end_days": 3
   },
   "sponsorAd": {
-    "enabled": true,
+    "enabled": false,
     "id": "sponsor_shop_2026",
     "type": "splash_ad",
     "title": "فروشگاه بزرگ سجاده و پوشاک اسلامی",
