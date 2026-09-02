@@ -219,7 +219,7 @@
     },
     {
       "id":"location_test",
-      "enabled":true,
+      "enabled":false,
       "priority":200,
       "type":"location_popup",
       "cities":[
