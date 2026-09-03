@@ -284,37 +284,22 @@
       "sizeDp": 46,
       "thicknessDp": 16
     },
-    "confetti": {
-      "enabled": true,
-      "density": "medium",
-      "count": 32,
-      "opacity": 0.8,
-      "heightDp": 44,
-      "colors": [
-        "#2563EB",
-        "#06B6D4",
-        "#F59E0B",
-        "#9333EA",
-        "#EC4899",
-        "#10B981"
-      ],
-      "darkColors": [
-        "#3B82F6",
-        "#22D3EE",
-        "#FBBF24",
-        "#A855F7",
-        "#F472B6",
-        "#34D399"
-      ],
-      "minSizeDp": 3,
-      "maxSizeDp": 7
+{
+  "occasion": {
+    "enabled": true,
+    "type": "CELEBRATION",
+    "title": "عید سعید فطر",
+    "startDate": "1405-06-12T00:00:00",
+    "endDate": "1405-06-13T23:59:59",
+    "ribbon": {
+      "offsetYDp": 2
     },
-    "animation": {
-      "enabled": true,
-      "speed": 1.0,
-      "enableRotation": true
+    "confetti": {
+      "count": 32,
+      "speed": 1.0
     }
-  },
+  }
+},
   "sponsorAd": {
     "enabled": false,
     "id": "sponsor_shop_2026",
