@@ -268,6 +268,39 @@
     "countdown_end_enabled": true,
     "countdown_end_days": 3
   },
+    "occasion": {
+    "enabled": true,
+    "type": "MOURNING",
+    "title": "تسلیت به مردم ایران",
+    "startDate": "1405-06-12T00:00:00",
+    "endDate": "1405-06-14T23:59:59",
+    "ribbon": {
+      "enabled": true,
+      "style": "diagonal_stripe",
+      "color": "#18181A",
+      "darkColor": "#1E2128",
+      "borderColor": "#2D2D32",
+      "darkBorderColor": "#608E9BAC",
+      "sizeDp": 46,
+      "thicknessDp": 16
+    },
+    "confetti": {
+      "enabled": true,
+      "density": "medium",
+      "count": 22,
+      "opacity": 0.75,
+      "heightDp": 44,
+      "colors": ["#1A1A1D", "#2E2E33", "#4A4A52", "#666670"],
+      "darkColors": ["#2D323A", "#424954", "#5A6372", "#788394"],
+      "minSizeDp": 3,
+      "maxSizeDp": 6
+    },
+    "animation": {
+      "enabled": true,
+      "speed": 0.85,
+      "enableRotation": false
+    }
+  },
   "sponsorAd": {
     "enabled": false,
     "id": "sponsor_shop_2026",
