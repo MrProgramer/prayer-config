@@ -268,36 +268,34 @@
     "countdown_end_enabled": true,
     "countdown_end_days": 3
   },
-  {
     "occasion": {
-    "enabled": true,
-    "type": "CELEBRATION",
-    "title": "عید سعید فطر",
-    "startDate": "1405-06-12T00:00:00",
-    "endDate": "1405-06-13T23:59:59",
-    "ribbon": {
-      "offsetYDp": 8
-    },
-    "confetti": {
-      "count": 50,
-      "speed": 3
-    }
+      "enabled": true,
+      "type": "CELEBRATION",
+      "title": "عید سعید فطر",
+      "startDate": "1405-06-12T00:00:00",
+      "endDate": "1405-06-13T23:59:59",
+      "ribbon": {
+        "offsetYDp": 8
+      },
+      "confetti": {
+        "count": 50,
+        "speed": 3
+      }
   },
-  {
     "occasion": {
-    "enabled": false,
-    "type": "MOURNING",
-    "title": "تسلیت به مردم زلزله زده کرمانشاه",
-    "startDate": "1405-06-12T00:00:00",
-    "endDate": "1405-06-14T23:59:59",
-    "ribbon": {
-      "offsetYDp": 8
+      "enabled": false,
+      "type": "MOURNING",
+      "title": "تسلیت به مردم زلزله زده کرمانشاه",
+      "startDate": "1405-06-12T00:00:00",
+      "endDate": "1405-06-14T23:59:59",
+      "ribbon": {
+        "offsetYDp": 8
+      },
+      "confetti": {
+        "count": 40,
+        "speed": 3
+      }
     },
-    "confetti": {
-      "count": 40,
-      "speed": 3
-    }
-  },
   "sponsorAd": {
     "enabled": false,
     "id": "sponsor_shop_2026",
