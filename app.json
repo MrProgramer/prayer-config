@@ -30,7 +30,7 @@
         }
     },
     "optionalUpdate":{
-      "enabled":true,
+      "enabled":false,
       "latestVersion":15,
       "title":"نسخه جدید منتشر شد",
       "message":"امکانات جدیدی به برنامه اضافه شده است.",
@@ -297,7 +297,7 @@
       }
     },
   "sponsorAd": {
-    "enabled": true,
+    "enabled": false,
     "id": "sponsor_shop_2026",
     "type": "splash_ad",
     "title": "فروشگاه بزرگ سجاده و پوشاک اسلامی",
