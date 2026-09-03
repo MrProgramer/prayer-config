@@ -269,7 +269,7 @@
     "countdown_end_days": 3
   },
   "occasion": {
-      "enabled": true,
+      "enabled": false,
       "type": "CELEBRATION",
       "title": "عید سعید فطر",
       "startDate": "1405-06-12T00:00:00",
@@ -283,7 +283,7 @@
       }
   },
   "occasion": {
-      "enabled": false,
+      "enabled": true,
       "type": "MOURNING",
       "title": "تسلیت به مردم زلزله زده کرمانشاه",
       "startDate": "1405-06-12T00:00:00",
