@@ -289,7 +289,7 @@
       "startDate": "1405-06-12T00:00:00",
       "endDate": "1405-06-14T23:59:59",
       "ribbon": {
-        "offsetYDp": -10
+        "offsetYDp": 5
       },
       "confetti": {
         "count": 40,
