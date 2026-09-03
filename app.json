@@ -282,7 +282,7 @@
       "borderColor": "#2D2D32",
       "darkBorderColor": "#608E9BAC",
       "sizeDp": 5,
-      "thicknessDp": 0
+      "thicknessDp": 1
     },
     "confetti": {
       "enabled": true,
