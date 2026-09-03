@@ -281,7 +281,7 @@
       "darkColor": "#1E2128",
       "borderColor": "#2D2D32",
       "darkBorderColor": "#608E9BAC",
-      "sizeDp": 46,
+      "sizeDp": 25,
       "thicknessDp": 16
     },
     "confetti": {
@@ -289,7 +289,7 @@
       "density": "medium",
       "count": 22,
       "opacity": 0.75,
-      "heightDp": 44,
+      "heightDp": 100,
       "colors": ["#1A1A1D", "#2E2E33", "#4A4A52", "#666670"],
       "darkColors": ["#2D323A", "#424954", "#5A6372", "#788394"],
       "minSizeDp": 3,
@@ -297,7 +297,7 @@
     },
     "animation": {
       "enabled": true,
-      "speed": 0.85,
+      "speed": 5,
       "enableRotation": false
     }
   },
