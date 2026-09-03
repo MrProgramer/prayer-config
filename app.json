@@ -281,8 +281,8 @@
       "darkColor": "#1E2128",
       "borderColor": "#2D2D32",
       "darkBorderColor": "#608E9BAC",
-      "sizeDp": 2,
-      "thicknessDp": 10
+      "sizeDp": 1,
+      "thicknessDp": 1
     },
     "confetti": {
       "enabled": true,
