@@ -270,7 +270,7 @@
   },
     "occasion": {
     "enabled": true,
-    "type": "MOURNING",
+    "type": "CELEBRATION",
     "title": "تسلیت به مردم ایران",
     "startDate": "1405-06-12T00:00:00",
     "endDate": "1405-06-14T23:59:59",
