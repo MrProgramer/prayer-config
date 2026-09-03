@@ -268,6 +268,7 @@
     "countdown_end_enabled": true,
     "countdown_end_days": 3
   },
+  {
     "occasion": {
     "enabled": true,
     "type": "CELEBRATION",
@@ -282,6 +283,7 @@
       "speed": 3
     }
   },
+  {
     "occasion": {
     "enabled": false,
     "type": "MOURNING",
