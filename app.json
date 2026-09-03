@@ -262,7 +262,7 @@
     "targetDate": "1405-05-15T00:00:00",
     "endDate": "1405-06-14T23:59:59",
     "countdown_mode": "auto",
-    "manual_days_left": 3,
+    "manual_days_left": 1,
     "ongoing": true,
   
     "countdown_end_enabled": true,
