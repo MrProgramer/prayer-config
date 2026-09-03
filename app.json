@@ -271,34 +271,48 @@
     "occasion": {
     "enabled": true,
     "type": "CELEBRATION",
-    "title": "تسلیت به مردم ایران",
+    "title": "عید سعید فطر",
     "startDate": "1405-06-12T00:00:00",
-    "endDate": "1405-06-14T23:59:59",
+    "endDate": "1405-06-13T23:59:59",
     "ribbon": {
       "enabled": true,
       "style": "diagonal_stripe",
-      "color": "#18181A",
-      "darkColor": "#1E2128",
-      "borderColor": "#2D2D32",
-      "darkBorderColor": "#608E9BAC",
-      "sizeDp": 5,
-      "thicknessDp": 1
+      "color": "#D49B1C",
+      "darkColor": "#C48A16",
+      "borderColor": "#FEE066",
+      "darkBorderColor": "#F3C338",
+      "sizeDp": 46,
+      "thicknessDp": 16
     },
     "confetti": {
       "enabled": true,
       "density": "medium",
-      "count": 50,
-      "opacity": 0.75,
-      "heightDp": 100,
-      "colors": ["#1A1A1D", "#2E2E33", "#4A4A52", "#666670"],
-      "darkColors": ["#2D323A", "#424954", "#5A6372", "#788394"],
+      "count": 32,
+      "opacity": 0.8,
+      "heightDp": 44,
+      "colors": [
+        "#2563EB",
+        "#06B6D4",
+        "#F59E0B",
+        "#9333EA",
+        "#EC4899",
+        "#10B981"
+      ],
+      "darkColors": [
+        "#3B82F6",
+        "#22D3EE",
+        "#FBBF24",
+        "#A855F7",
+        "#F472B6",
+        "#34D399"
+      ],
       "minSizeDp": 3,
-      "maxSizeDp": 6
+      "maxSizeDp": 7
     },
     "animation": {
       "enabled": true,
-      "speed": 5,
-      "enableRotation": false
+      "speed": 1.0,
+      "enableRotation": true
     }
   },
   "sponsorAd": {
