@@ -252,7 +252,7 @@
   },
   "ramadanCountdown": {
     "enabled": true,
-    "style": "large",
+    "style": "small",
     "title": "روز شمار رمضان",
     "subtitle": "مانده تا عید سعید فطر",
     "badge_text": "روزهای پایانی",
