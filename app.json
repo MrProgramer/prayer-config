@@ -261,7 +261,7 @@
     "startDate": "1405-05-10T00:00:00",
     "targetDate": "1405-05-15T00:00:00",
     "endDate": "1405-06-14T23:59:59",
-    "countdown_mode": "manual",
+    "countdown_mode": "auto",
     "manual_days_left": 3,
     "ongoing": true,
   
@@ -281,8 +281,8 @@
       "darkColor": "#1E2128",
       "borderColor": "#2D2D32",
       "darkBorderColor": "#608E9BAC",
-      "sizeDp": 10,
-      "thicknessDp": 5
+      "sizeDp": 2,
+      "thicknessDp": 10
     },
     "confetti": {
       "enabled": true,
