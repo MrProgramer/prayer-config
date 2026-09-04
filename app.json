@@ -314,7 +314,7 @@
     "phone": "۰۲۱-۱۲۳۴۵۶۷۸"
   },
     "donation": {
-    "enabled": true,
+    "enabled": false,
     "offlineEnabled": true,
     "testModeAlwaysShow": true,
     "intervalDays": 7,
