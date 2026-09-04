@@ -313,6 +313,30 @@
     "address": "تهران، بازار بزرگ، سرای ملی، پلاک ۱۲",
     "phone": "۰۲۱-۱۲۳۴۵۶۷۸"
   },
+    "donation": {
+    "enabled": true,
+    "offlineEnabled": true,
+    "testModeAlwaysShow": true,
+    "intervalDays": 7,
+    "minDaysInterval": 1,
+    "maxDaysInterval": 7,
+    "randomInterval": true,
+    "title": "❤️ حمایت از برنامه",
+    "message": "اگر این برنامه در یادآوری اوقات نماز و انجام عبادات روزانه برای شما مفید بوده است، می‌توانید با حمایت خود به ادامه این مسیر و توسعه امکانات آن کمک کنید.\nباشد که این همراهی، گامی کوچک در مسیر نشر خیر و یادآوری عبادت باشد. 🤲\nجزاکم‌الله خیراً و بارک‌الله فیکم 🌹",
+    "card": {
+      "enabled": true,
+      "cardNumber": "6037997500000000",
+      "cardHolder": "نام و نام‌خانوادگی",
+      "bankName": "بانک ملی ایران",
+      "iban": "IR000000000000000000000000"
+    },
+    "gateway": {
+      "enabled": true,
+      "title": "درگاه پرداخت آنلاین",
+      "url": "https://zarinp.al/...",
+      "buttonText": "پرداخت آنلاین از طریق درگاه امن"
+    }
+  },
   "notification":{
     "enabled":false,
     "title":"📢 اطلاعیه جدید",
