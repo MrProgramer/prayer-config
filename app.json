@@ -250,23 +250,33 @@
     "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=600&q=80",
     "url": "https://t.me/your_telegram_channel"
   },
-  "ramadanCountdown": {
-    "enabled": true,
-    "style": "large",
-    "title": "روز شمار رمضان",
-    "subtitle": "مانده تا عید سعید فطر",
-    "badge_text": "روزهای پایانی",
-    "icon": "🌙",
-
-    "startDate": "1405-05-10T00:00:00",
-    "targetDate": "1405-05-16T00:00:00",
-    "endDate": "1405-06-15T23:59:59",
-    "countdown_mode": "auto",
-    "manual_days_left": 3,
-    "ongoing": true,
-  
-    "countdown_end_enabled": true,
-    "countdown_end_days": 2
+  "ramadan_countdown": {
+      "enabled": true,
+      "style": "large",
+      "save_offline": true,
+      "countdown_mode": "auto",
+      "startDate": "1405-05-10T00:00:00",
+      "targetDate": "1405-05-16T00:00:00",
+      "endDate": "1405-06-15T23:59:59",
+      "title": "روز شمار رمضان",
+      "subtitle": "مانده تا ماه مبارک رمضان",
+      "badge_text": "ماه رمضان",
+      "icon": "🌙",
+      "url": "",
+      
+      "countdown_start_enabled": true,
+      "countdown_start_days": 1,
+      
+      "countdown_end_enabled": true,
+      "countdown_end_days": 2,
+      
+      "eid_celebration_enabled": true,
+      "eid_celebration_duration_hours": 48,
+      "eid_celebration_dismissible": true,
+      "eid_celebration_id": "eid_fitr_1447",
+      "eid_celebration_title": "عید سعید فطر مبارک باد",
+      "eid_celebration_subtitle": "طاعات و عبادات شما قبول درگاه حق تعالی",
+      "eid_celebration_message": "تَقَبَّلَ اللّهُ مِنَّا وَمِنكُم صَالِحَ الأَعمَال وَكُلُّ عَامٍ وَأَنتُم بِخَير"
   },
   "occasion": {
       "enabled": false,
@@ -353,11 +363,9 @@
     "tasbih":true,
     "radio":false
   },
-  "links":{
-    "telegram":"https://t.me/YOUR_CHANNEL",
-    "instagram":"",
-    "website":"",
-    "support":"",
-    "privacyPolicy":""
+  "links": {
+    "telegram_url": "https://t.me/PrXgramer",
+    "instagram_url": "https://instagram.com/your_id",
+    "bazaar_url": "https://cafebazaar.ir/app/com.example"
   }
 }
