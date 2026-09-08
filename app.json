@@ -343,7 +343,7 @@
     "gateway": {
       "enabled": true,
       "title": "درگاه پرداخت آنلاین",
-      "url": "https://zarinp.al/...",
+      "url": "",
       "buttonText": "پرداخت آنلاین از طریق درگاه امن"
     }
   },
