@@ -265,7 +265,7 @@
       "url": "",
       
       "countdown_start_enabled": true,
-      "countdown_start_days": 1,
+      "countdown_start_days": 200,
       
       "countdown_end_enabled": true,
       "countdown_end_days": 2,
