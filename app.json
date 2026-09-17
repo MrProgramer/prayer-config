@@ -348,7 +348,7 @@
     }
   },
     "dua": {
-    "enabled": true,
+    "enabled": false,
     "showOnce": false,
     "expire": "3d",
     "title": "🤲 التماس دعا برای شفای بیماران",
