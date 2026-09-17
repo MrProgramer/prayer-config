@@ -371,7 +371,7 @@
   },
 
   "hadith_of_day": {
-    "enabled": true,
+    "enabled": false,
     "showOnce": false,
     "expire": "1d",
     "title": "📖 حدیث روز",
