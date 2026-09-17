@@ -347,6 +347,72 @@
       "buttonText": "پرداخت آنلاین از طریق درگاه امن"
     }
   },
+  {
+  "id": "dua_request_shifa_01",
+  "enabled": true,
+  "priority": 250,
+  "type": "dua",
+  "icon": "dua",
+  "showOnce": false,
+  "expire": "3d",
+  "startDate": "1404-12-01",
+  "endDate": "1404-12-29",
+  "title": "التماس دعا برای شفای بیماران",
+  "message": "برادران و خواهران گرامی، یکی از عزیزان در بستر بیماری است؛ لطفاً در اوقات استجابت دعا و پس از نمازهایتان ایشان و جمیع بیماران مسلمان را از دعای خیر خود فراموش نفرمایید.\n\nاللَّهُمَّ رَبَّ النَّاسِ أَذْهِبِ الْبَأْسَ، اشْفِ أَنْتَ الشَّافِي لاَ شِفَاءَ إِلاَّ شِفَاؤُكَ.",
+  "button": {
+    "enabled": true,
+    "text": "آمین، التماس دعا",
+    "url": ""
+  },
+  "cancelButton": {
+    "enabled": false,
+    "text": "بستن",
+    "url": ""
+  },
+  "animation": {
+    "enabled": true,
+    "type": "rain",
+    "duration": 5000
+  },
+  "notify": {
+    "enabled": false,
+    "text": "التماس دعای خیر برای یک بیمار"
+  }
+}
+,
+{
+  "id": "hadith_of_day_01",
+  "enabled": true,
+  "priority": 220,
+  "type": "hadith_of_day",
+  "icon": "hadith",
+  "showOnce": false,
+  "expire": "1d",
+  "startDate": "",
+  "endDate": "",
+  "title": "حدیث روز مبارک",
+  "message": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ:\n\n«مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا، سَهَّلَ اللَّهُ لَهُ بِهِ طَرِيقًا إِلَى الْجَنَّةِ»\n\n(هر کس راهی را بپیماید که در آن دانشی جوید، خداوند راهی به سوی بهشت را برایش هموار می‌سازد. - صحیح مسلم)",
+  "button": {
+    "enabled": true,
+    "text": "قبول باشد",
+    "url": ""
+  },
+  "cancelButton": {
+    "enabled": false,
+    "text": "بستن",
+    "url": ""
+  },
+  "animation": {
+    "enabled": true,
+    "type": "stars",
+    "duration": 4000
+  },
+  "notify": {
+    "enabled": false,
+    "text": "حدیث روز"
+  }
+}
+  ,
   "notification":{
     "enabled":false,
     "title":"📢 اطلاعیه جدید",
