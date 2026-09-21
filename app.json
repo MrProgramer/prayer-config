@@ -253,7 +253,7 @@
   "ramadan_countdown": {
       "enabled": false,
       "style": "large",
-      "save_offline": true,
+      "save_offline": false,
       "countdown_mode": "auto",
       "startDate": "1405-06-01T00:00:00",
       "targetDate": "1405-10-19T00:00:00",
