@@ -251,7 +251,7 @@
     "url": "https://t.me/your_telegram_channel"
   },
   "ramadan_countdown": {
-      "enabled": true,
+      "enabled": false,
       "style": "large",
       "save_offline": true,
       "countdown_mode": "auto",
