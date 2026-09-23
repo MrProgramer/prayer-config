@@ -30,7 +30,7 @@
         }
     },
     "optionalUpdate":{
-      "enabled":true,
+      "enabled":false,
       "latestVersion":15,
       "title":"نسخه جدید منتشر شد",
       "message":"امکانات جدیدی به برنامه اضافه شده است.",
@@ -46,7 +46,7 @@
   "messages":[
     {
       "id":"test_popup",
-      "enabled":false,
+      "enabled":true,
       "priority":100,
       "type":"popup",
       "title":"📢 پیام آزمایشی",
