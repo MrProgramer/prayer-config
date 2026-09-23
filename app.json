@@ -251,11 +251,11 @@
     "url": "https://t.me/your_telegram_channel"
   },
   "ramadan_countdown": {
-      "enabled": false,
+      "enabled": true,
       "style": "large",
       "save_offline": false,
       "countdown_mode": "auto",
-      "startDate": "1405-06-01T00:00:00",
+      "startDate": "1405-10-01T00:00:00",
       "targetDate": "1405-10-19T00:00:00",
       "endDate": "1405-11-18T23:59:59",
       "title": "روز شمار رمضان",
