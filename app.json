@@ -6,7 +6,7 @@
   "app":{
     "enabled":true,
     "maintenance":{
-      "enabled":false,
+      "enabled":true,
       "title":"برنامه موقتاً در دسترس نیست",
       "message":"در حال بروزرسانی برنامه هستیم.",
       "buttonText":"خروج",
@@ -18,7 +18,7 @@
   },
   "update":{
     "forceUpdate":{
-      "enabled":true,
+      "enabled":false,
       "minimumVersion":10,
       "title":"نسخه جدید ضروری است",
       "message":"برای ادامه استفاده لطفاً برنامه را بروزرسانی کنید.",
