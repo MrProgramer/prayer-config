@@ -18,7 +18,7 @@
   },
   "update":{
     "forceUpdate":{
-      "enabled":false,
+      "enabled":true,
       "minimumVersion":10,
       "title":"نسخه جدید ضروری است",
       "message":"برای ادامه استفاده لطفاً برنامه را بروزرسانی کنید.",
