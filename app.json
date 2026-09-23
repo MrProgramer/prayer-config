@@ -6,7 +6,7 @@
   "app":{
     "enabled":true,
     "maintenance":{
-      "enabled":true,
+      "enabled":false,
       "title":"برنامه موقتاً در دسترس نیست",
       "message":"در حال بروزرسانی برنامه هستیم.",
       "buttonText":"خروج",
@@ -30,7 +30,7 @@
         }
     },
     "optionalUpdate":{
-      "enabled":false,
+      "enabled":true,
       "latestVersion":15,
       "title":"نسخه جدید منتشر شد",
       "message":"امکانات جدیدی به برنامه اضافه شده است.",
