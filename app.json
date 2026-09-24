@@ -16,6 +16,25 @@
         }
     }
   },
+    "update": {
+    "forceUpdate": {
+      "enabled": true,
+      "minimumVersion": 2,
+      "title": "به‌روزرسانی ضروری",
+      "message": "نسخه جدید با بهبود محاسبات شرعی منتشر شده است. لطفاً برنامه را به‌روزرسانی کنید.",
+      "buttonText": "دریافت نسخه جدید",
+      "storeUrl": "https://cafebazaar.ir/app/com.sunniprayertime.owghat"
+    },
+    "optionalUpdate": {
+      "enabled": true,
+      "latestVersion": 2,
+      "title": "نسخه جدید منتشر شد",
+      "message": "امکانات جدیدی به برنامه اضافه شده است.",
+      "buttonText": "به‌روزرسانی",
+      "cancelText": "بعداً",
+      "storeUrl": "https://cafebazaar.ir/app/com.sunniprayertime.owghat"
+    }
+  },
   "update":{
     "forceUpdate":{
       "enabled":false,
