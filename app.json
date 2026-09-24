@@ -1,29 +1,33 @@
 {
-  "configVersion":4,
-  "lastUpdate":"1405/05/11",
-  "checkIntervalHours":6,
-  "randomDelayMinutes":60,
-  "app":{
-    "enabled":true,
-    "maintenance":{
-      "enabled":false,
-      "title":"برنامه موقتاً در دسترس نیست",
-      "message":"در حال بروزرسانی برنامه هستیم.",
-      "buttonText":"خروج",
-      "notify":{
-        "enabled":false,
-        "text":"یک پیام دارید لطفا برنامه رو باز کنید."
-        }
+  "configVersion": 4,
+  "lastUpdate": "1405/05/11",
+  "checkIntervalHours": 6,
+  "randomDelayMinutes": 60,
+  "app": {
+    "enabled": true,
+    "maintenance": {
+      "enabled": false,
+      "title": "برنامه موقتاً در دسترس نیست",
+      "message": "در حال بروزرسانی برنامه هستیم.",
+      "buttonText": "خروج",
+      "notify": {
+        "enabled": false,
+        "text": "یک پیام دارید لطفا برنامه رو باز کنید."
+      }
     }
   },
-    "update": {
+  "update": {
     "forceUpdate": {
       "enabled": true,
       "minimumVersion": 2,
       "title": "به‌روزرسانی ضروری",
       "message": "نسخه جدید با بهبود محاسبات شرعی منتشر شده است. لطفاً برنامه را به‌روزرسانی کنید.",
       "buttonText": "دریافت نسخه جدید",
-      "storeUrl": "https://cafebazaar.ir/app/com.sunniprayertime.owghat"
+      "storeUrl": "https://cafebazaar.ir/app/com.sunniprayertime.owghat",
+      "notify": {
+        "enabled": false,
+        "text": "نسخه جدید برنامه منتشر شد، لطفاً به‌روزرسانی کنید."
+      }
     },
     "optionalUpdate": {
       "enabled": true,
@@ -32,233 +36,210 @@
       "message": "امکانات جدیدی به برنامه اضافه شده است.",
       "buttonText": "به‌روزرسانی",
       "cancelText": "بعداً",
-      "storeUrl": "https://cafebazaar.ir/app/com.sunniprayertime.owghat"
+      "storeUrl": "https://cafebazaar.ir/app/com.sunniprayertime.owghat",
+      "notify": {
+        "enabled": false,
+        "text": "نسخه جدید برنامه منتشر شد."
+      }
     }
   },
-  "update":{
-    "forceUpdate":{
-      "enabled":false,
-      "minimumVersion":10,
-      "title":"نسخه جدید ضروری است",
-      "message":"برای ادامه استفاده لطفاً برنامه را بروزرسانی کنید.",
-      "buttonText":"بروزرسانی",
-      "storeUrl":"https://cafebazaar.ir/app/YOUR_PACKAGE_NAME",
-      "notify":{
-        "enabled":false,
-        "text":"یک پیام دارید لطفا برنامه رو باز کنید."
-        }
-    },
-    "optionalUpdate":{
-      "enabled":false,
-      "latestVersion":15,
-      "title":"نسخه جدید منتشر شد",
-      "message":"امکانات جدیدی به برنامه اضافه شده است.",
-      "buttonText":"بروزرسانی",
-      "cancelText":"بعداً",
-      "storeUrl":"https://cafebazaar.ir/app/YOUR_PACKAGE_NAME",
-      "notify":{
-        "enabled":false,
-        "text":"یک پیام دارید لطفا برنامه رو باز کنید."
-        }
-    }
-  },
-  "messages":[
+  "messages": [
     {
-      "id":"test_popup",
-      "enabled":false,
-      "priority":100,
-      "type":"popup",
-      "title":"📢 پیام",
-      "message":"این یک پیام آزمایشی از راه دور است. متن، تصویر و لینک این پیام قابل تغییر است.",
-      "image":"",
-      "showOnce":false,
-      "button":{
-        "enabled":true,
-        "text":"مشاهده",
-        "url":"https://example.com"
+      "id": "test_popup",
+      "enabled": false,
+      "priority": 100,
+      "type": "popup",
+      "title": "📢 پیام",
+      "message": "این یک پیام آزمایشی از راه دور است. متن، تصویر و لینک این پیام قابل تغییر است.",
+      "image": "",
+      "showOnce": false,
+      "button": {
+        "enabled": true,
+        "text": "مشاهده",
+        "url": "https://example.com"
       },
-      "notify":{
-        "enabled":false,
-        "text":"یک پیام دارید لطفا برنامه رو باز کنید."
-        },
-      "cancelButton":{
-        "enabled":true,
-        "text":"بستن"
+      "notify": {
+        "enabled": false,
+        "text": "یک پیام دارید لطفا برنامه رو باز کنید."
+      },
+      "cancelButton": {
+        "enabled": true,
+        "text": "بستن"
       }
     },
     {
-      "id":"test_timer",
-      "enabled":false,
-      "priority":80,
-      "type":"timed_popup",
-      "title":"پیام ویژه",
-      "message":"این پیام بعد از 10 ثانیه به صورت خودکار بسته می‌شود.",
-      "image":"https://static.vecteezy.com/system/resources/previews/029/579/337/non_2x/islamic-banner-design-free-vector.jpg",
-      "showOnce":false,
-      "notify":{
-        "enabled":false,
-        "text":"یک پیام دارید لطفا برنامه رو باز کنید."
-        },
-      "timer":{
-        "enabled":true,
-        "durationSeconds":10
+      "id": "test_timer",
+      "enabled": false,
+      "priority": 80,
+      "type": "timed_popup",
+      "title": "پیام ویژه",
+      "message": "این پیام بعد از 10 ثانیه به صورت خودکار بسته میشود.",
+      "image": "https://static.vecteezy.com/system/resources/previews/029/579/337/non_2x/islamic-banner-design-free-vector.jpg",
+      "showOnce": false,
+      "notify": {
+        "enabled": false,
+        "text": "یک پیام دارید لطفا برنامه رو باز کنید."
       },
-      "button":{
-        "enabled":false,
-        "text":"ورود",
-        "url":"https://example.com"
+      "timer": {
+        "enabled": true,
+        "durationSeconds": 10
       },
-      "cancelButton":{
-        "enabled":false,
-        "text":""
+      "button": {
+        "enabled": false,
+        "text": "ورود",
+        "url": "https://example.com"
+      },
+      "cancelButton": {
+        "enabled": false,
+        "text": ""
       }
     },
     {
-      "id":"ramadan",
-      "enabled":false,
-      "priority":150,
-      "type":"celebration",
-      "title":"🌙 ماه مبارک رمضان",
-      "message":"فرا رسیدن ماه مبارک رمضان را تبریک عرض می‌کنیم. از خداوند متعال قبولی طاعات و عبادات شما را مسئلت داریم.",
-      "image":"https://img.magnific.com/free-psd/ramadan-mubarak-3d-banner-design-template_47987-19386.jpg?semt=ais_test_b&w=740&q=80",
-      "startDate":"",
-      "endDate":"",
-      "showOnce":true,
-      "notify":{
-        "enabled":true,
-        "text":"فرا رسیدن ماه مبارک رمضان بر تمام مسلمانان مبارک باد 🌹 ."
-        },
-      "animation":{
-        "enabled":true,
-        "type":"confetti",
-        "duration":20000
+      "id": "ramadan",
+      "enabled": false,
+      "priority": 150,
+      "type": "celebration",
+      "title": "🌙 ماه مبارک رمضان",
+      "message": "فرا رسیدن ماه مبارک رمضان را تبریک عرض میکنیم. از خداوند متعال قبولی طاعات و عبادات شما را مسئلت داریم.",
+      "image": "https://img.magnific.com/free-psd/ramadan-mubarak-3d-banner-design-template_47987-19386.jpg?semt=ais_test_b&w=740&q=80",
+      "startDate": "",
+      "endDate": "",
+      "showOnce": true,
+      "notify": {
+        "enabled": true,
+        "text": "فرا رسیدن ماه مبارک رمضان بر تمام مسلمانان مبارک باد 🌹 ."
+      },
+      "animation": {
+        "enabled": true,
+        "type": "confetti",
+        "duration": 20000
       }
     },
     {
-      "id":"eid_fitr",
-      "enabled":false,
-      "priority":150,
-      "type":"celebration",
-      "title":"🌙 عید سعید فطر مبارک",
-      "message":"حلول عید سعید فطر، عید بندگی و شکرگزاری را به شما و خانواده گرامی تبریک عرض می‌کنیم. از خداوند متعال قبولی طاعات و عبادات، سلامتی، آرامش و برکت را برای شما مسئلت داریم.",
-      "image":"https://assets.thehansindia.com/h-upload/2025/03/30/1537744-eid.webp",
-      "startDate":"",
-      "endDate":"",
-      "showOnce":false,
-      "notify":{
-        "enabled":true,
-        "text":"عید سعید فطر بر تمام مسلمانان جهان مبارک باد ...."
-        },
-      "button":{
-        "enabled":false,
-        "text":"",
-        "url":""
+      "id": "eid_fitr",
+      "enabled": false,
+      "priority": 150,
+      "type": "celebration",
+      "title": "🌙 عید سعید فطر مبارک",
+      "message": "حلول عید سعید فطر، عید بندگی و شکرگزاری را به شما و خانواده گرامی تبریک عرض میکنیم. از خداوند متعال قبولی طاعات و عبادات، سلامتی، آرامش و برکت را برای شما مسئلت داریم.",
+      "image": "https://assets.thehansindia.com/h-upload/2025/03/30/1537744-eid.webp",
+      "startDate": "",
+      "endDate": "",
+      "showOnce": false,
+      "notify": {
+        "enabled": true,
+        "text": "عید سعید فطر بر تمام مسلمانان جهان مبارک باد ...."
       },
-      "cancelButton":{
-        "enabled":true,
-        "text":"بستن"
+      "button": {
+        "enabled": false,
+        "text": "",
+        "url": ""
       },
-      "animation":{
-        "enabled":true,
-        "type":"flower_rain",
-        "duration":600000,
-        "count":80
+      "cancelButton": {
+        "enabled": true,
+        "text": "بستن"
       },
-      "sound":""
+      "animation": {
+        "enabled": true,
+        "type": "flower_rain",
+        "duration": 600000,
+        "count": 80
+      },
+      "sound": ""
     },
     {
-        "id":"eid_adha",
-        "enabled":false,
-        "priority":500,
-        "type":"celebration",
-        "title":"🕋 عید سعید قربان مبارک",
-        "message":"عید سعید قربان، عید بندگی، ایثار و تسلیم در برابر فرمان الهی را به شما و خانواده گرامی تبریک عرض می‌کنیم. از خداوند متعال قبولی عبادات، سلامتی، آرامش، خیر و برکت را برای شما و عزیزانتان مسئلت داریم.",
-        "image":"https://cdn.ngopibareng.id/uploads/2023/2023-05-29/9-hal-penting-tentnag-kurban-dan-problematikanya--thumbnail-697",
-        "startDate":"",
-        "endDate":"",
-        "showOnce":false,
-        "notify":{
-          "enabled":false,
-          "text":"یک پیام دارید لطفا برنامه رو باز کنید."
-        },
-        "button":{
-          "enabled":false,
-          "text":"",
-          "url":""
-        },
-        "cancelButton":{
-          "enabled":true,
-          "text":"بستن"
-        },
-        "animation":{
-          "enabled":true,
-          "type":"petals",
-          "duration":100000
-        },
-        "sound":""
+      "id": "eid_adha",
+      "enabled": false,
+      "priority": 500,
+      "type": "celebration",
+      "title": "🕋 عید سعید قربان مبارک",
+      "message": "عید سعید قربان، عید بندگی، ایثار و تسلیم در برابر فرمان الهی را به شما و خانواده گرامی تبریک عرض میکنیم. از خداوند متعال قبولی عبادات، سلامتی، آرامش، خیر و برکت را برای شما و عزیزانتان مسئلت داریم.",
+      "image": "https://cdn.ngopibareng.id/uploads/2023/2023-05-29/9-hal-penting-tentnag-kurban-dan-problematikanya--thumbnail-697",
+      "startDate": "",
+      "endDate": "",
+      "showOnce": false,
+      "notify": {
+        "enabled": false,
+        "text": "یک پیام دارید لطفا برنامه رو باز کنید."
+      },
+      "button": {
+        "enabled": false,
+        "text": "",
+        "url": ""
+      },
+      "cancelButton": {
+        "enabled": true,
+        "text": "بستن"
+      },
+      "animation": {
+        "enabled": true,
+        "type": "petals",
+        "duration": 100000
+      },
+      "sound": ""
     },
     {
-      "id":"ashura_fasting",
-      "enabled":false,
-      "priority":160,
-      "type":"educational",
-      "displayMode":"full",
-      "showOnce":false,
-        "notify":{
-          "enabled":false,
-          "text":"یک پیام دارید لطفا برنامه رو باز کنید."
-        },
-      "title":"🌙 یادآوری روزه عاشورا",
-      "image":"https://ukim-live.storage.googleapis.com/upload/www.ukim.org/media-centre/latest-news-%26-updates/ramadan_mosque.jpg",
-      "startDate":"",
-      "endDate":"",
-      "compact":{
-        "title":"فردا روز عاشورا است",
-        "message":"فردا روز عاشورا (۱۰ محرم) است. روزه این روز از سنت‌های مؤکد بوده و سبب آمرزش گناهان یک سال گذشته می‌شود.",
-        "reference":"صحیح مسلم 1162"
+      "id": "ashura_fasting",
+      "enabled": false,
+      "priority": 160,
+      "type": "educational",
+      "displayMode": "full",
+      "showOnce": false,
+      "notify": {
+        "enabled": false,
+        "text": "یک پیام دارید لطفا برنامه رو باز کنید."
       },
-      "full":{
-        "title":"فضیلت روزه عاشورا",
-        "intro":"روز عاشورا (۱۰ محرم) از روزهای بسیار بافضیلت در اسلام است و روزه گرفتن آن از سنت‌های مؤکد پیامبر ﷺ می‌باشد.",
-        "arabic":"يُكَفِّرُ السَّنَةَ الْمَاضِيَةَ",
-        "translation":"روزه روز عاشورا گناهان (صغیره) یک سال گذشته را می‌آمرزد.",
-        "reference":"صحیح مسلم، حدیث 1162",
-        "details":"پیامبر ﷺ همچنین فرمودند: «اگر تا سال آینده زنده باشم، روز نهم را نیز روزه خواهم گرفت.» بنابراین بهتر است روز نهم و دهم محرم با هم روزه گرفته شوند.",
-        "reference2":"صحیح مسلم، حدیث 1134"
+      "title": "🌙 یادآوری روزه عاشورا",
+      "image": "https://ukim-live.storage.googleapis.com/upload/www.ukim.org/media-centre/latest-news-%26-updates/ramadan_mosque.jpg",
+      "startDate": "",
+      "endDate": "",
+      "compact": {
+        "title": "فردا روز عاشورا است",
+        "message": "فردا روز عاشورا (۱۰ محرم) است. روزه این روز از سنتهای مؤکد بوده و سبب آمرزش گناهان یک سال گذشته میشود.",
+        "reference": "صحیح مسلم 1162"
       },
-      "button":{
-        "enabled":false,
-        "text":"",
-        "url":""
+      "full": {
+        "title": "فضیلت روزه عاشورا",
+        "intro": "روز عاشورا (۱۰ محرم) از روزهای بسیار بافضیلت در اسلام است و روزه گرفتن آن از سنتهای مؤکد پیامبر ﷺ میباشد.",
+        "arabic": "يُكَفِّرُ السَّنَةَ الْمَاضِيَةَ",
+        "translation": "روزه روز عاشورا گناهان (صغیره) یک سال گذشته را میآمرزد.",
+        "reference": "صحیح مسلم، حدیث 1162",
+        "details": "پیامبر ﷺ همچنین فرمودند: «اگر تا سال آینده زنده باشم، روز نهم را نیز روزه خواهم گرفت.» بنابراین بهتر است روز نهم و دهم محرم با هم روزه گرفته شوند.",
+        "reference2": "صحیح مسلم، حدیث 1134"
       },
-      "cancelButton":{
-        "enabled":true,
-        "text":"بستن"
+      "button": {
+        "enabled": false,
+        "text": "",
+        "url": ""
+      },
+      "cancelButton": {
+        "enabled": true,
+        "text": "بستن"
       }
     },
     {
-      "id":"location_test",
-      "enabled":false,
-      "priority":200,
-      "type":"location_popup",
-      "cities":[
+      "id": "location_test",
+      "enabled": false,
+      "priority": 200,
+      "type": "location_popup",
+      "cities": [
         "جوانرود",
         "ثلاث باباجانی",
         "روانسر",
         "پاوه"
       ],
-      "title":"📍 پیام ویژه منطقه",
-      "message":"این پیام فقط برای مردم عزیز جوانرود، ثلاث باباجانی، روانسر و پاوه نمایش داده می‌شود.",
-      "image":"",
-      "showOnce":false,
-        "notify":{
-          "enabled":false,
-          "text":"یک پیام دارید لطفا برنامه رو باز کنید."
-        },
-      "button":{
-        "enabled":false,
-        "text":"",
-        "url":""
+      "title": "📍 پیام ویژه منطقه",
+      "message": "این پیام فقط برای مردم عزیز جوانرود، ثلاث باباجانی، روانسر و پاوه نمایش داده میشود.",
+      "image": "",
+      "showOnce": false,
+      "notify": {
+        "enabled": false,
+        "text": "یک پیام دارید لطفا برنامه رو باز کنید."
+      },
+      "button": {
+        "enabled": false,
+        "text": "",
+        "url": ""
       }
     }
   ],
@@ -270,67 +251,50 @@
     "url": "https://t.me/your_telegram_channel"
   },
   "ramadan_countdown": {
-      "enabled": true,
-      "style": "large",
-      "save_offline": false,
-      "countdown_mode": "auto",
-      "startDate": "1405-10-01T00:00:00",
-      "targetDate": "1405-10-19T00:00:00",
-      "endDate": "1405-11-18T23:59:59",
-      "title": "روز شمار رمضان",
-      "subtitle": "مانده تا ماه مبارک رمضان",
-      "badge_text": "ماه رمضان",
-      "icon": "🌙",
-      "url": "",
-      
-      "countdown_start_enabled": true,
-      "countdown_start_days": 200,
-      
-      "countdown_end_enabled": true,
-      "countdown_end_days": 2,
-      
-      "eid_celebration_enabled": true,
-      "eid_celebration_duration_hours": 48,
-      "eid_celebration_dismissible": true,
-      "eid_celebration_id": "eid_fitr_1447",
-      "eid_celebration_title": "عید سعید فطر مبارک باد",
-      "eid_celebration_subtitle": "طاعات و عبادات شما قبول درگاه حق تعالی",
-      "eid_celebration_message": "تَقَبَّلَ اللّهُ مِنَّا وَمِنكُم صَالِحَ الأَعمَال وَكُلُّ عَامٍ وَأَنتُم بِخَير"
+    "enabled": true,
+    "style": "large",
+    "save_offline": false,
+    "countdown_mode": "auto",
+    "startDate": "1405-10-01T00:00:00",
+    "targetDate": "1405-10-19T00:00:00",
+    "endDate": "1405-11-18T23:59:59",
+    "title": "روز شمار رمضان",
+    "subtitle": "مانده تا ماه مبارک رمضان",
+    "badge_text": "ماه رمضان",
+    "icon": "🌙",
+    "url": "",
+    "countdown_start_enabled": true,
+    "countdown_start_days": 200,
+    "countdown_end_enabled": true,
+    "countdown_end_days": 2,
+    "eid_celebration_enabled": true,
+    "eid_celebration_duration_hours": 48,
+    "eid_celebration_dismissible": true,
+    "eid_celebration_id": "eid_fitr_1447",
+    "eid_celebration_title": "عید سعید فطر مبارک باد",
+    "eid_celebration_subtitle": "طاعات و عبادات شما قبول درگاه حق تعالی",
+    "eid_celebration_message": "تَقَبَّلَ اللّهُ مِنَّا وَمِنكُم صَالِحَ الأَعمَال وَكُلُّ عَامٍ وَأَنتُم بِخَير"
   },
   "occasion": {
-      "enabled": false,
-      "type": "CELEBRATION",
-      "title": "عید سعید فطر",
-      "startDate": "1405-06-12T00:00:00",
-      "endDate": "1405-06-13T23:59:59",
-      "ribbon": {
-        "offsetYDp": 0
-      },
-      "confetti": {
-        "count": 50,
-        "speed": 1
-      }
-  },
-  "occasion": {
-      "enabled": true,
-      "type": "MOURNING",
-      "title": "تسلیت به مردم زلزله زده کرمانشاه",
-      "startDate": "1405-06-12T00:00:00",
-      "endDate": "1405-06-20T23:59:59",
-      "ribbon": {
-        "offsetYDp": 15
-      },
-      "confetti": {
-        "count": 25,
-        "speed": 3
-      }
+    "enabled": true,
+    "type": "MOURNING",
+    "title": "تسلیت به مردم زلزله زده کرمانشاه",
+    "startDate": "1405-06-12T00:00:00",
+    "endDate": "1405-06-20T23:59:59",
+    "ribbon": {
+      "offsetYDp": 15
     },
+    "confetti": {
+      "count": 25,
+      "speed": 3
+    }
+  },
   "sponsorAd": {
     "enabled": false,
     "id": "sponsor_shop_2026",
     "type": "splash_ad",
     "title": "فروشگاه بزرگ سجاده و پوشاک اسلامی",
-    "description": "بزرگترین مرکز ارائه سجاده‌های طبی، عطر الحرمین، کتب مذهبی و پوشاک سنتی با ارسال رایگان به سراسر کشور.",
+    "description": "بزرگترین مرکز ارائه سجادههای طبی، عطر الحرمین، کتب مذهبی و پوشاک سنتی با ارسال رایگان به سراسر کشور.",
     "image": "https://static.vecteezy.com/system/resources/previews/029/579/336/non_2x/elegant-islamic-banner-and-background-design-free-vector.jpg",
     "durationSeconds": 5,
     "forceUserToWait": true,
@@ -342,7 +306,7 @@
     "address": "تهران، بازار بزرگ، سرای ملی، پلاک ۱۲",
     "phone": "۰۲۱-۱۲۳۴۵۶۷۸"
   },
-    "donation": {
+  "donation": {
     "enabled": true,
     "offlineEnabled": false,
     "testModeAlwaysShow": false,
@@ -351,7 +315,7 @@
     "maxDaysInterval": 30,
     "randomInterval": true,
     "title": "❤️ حمایت از برنامه",
-    "message": "اگر این برنامه در یادآوری اوقات نماز و انجام عبادات روزانه برای شما مفید بوده است، می‌توانید با حمایت خود به ادامه این مسیر و توسعه امکانات آن کمک کنید.\nباشد که این همراهی، گامی کوچک در مسیر نشر خیر و یادآوری عبادت باشد. 🤲\nجزاکم‌الله خیراً و بارک‌الله فیکم 🌹",
+    "message": "اگر این برنامه در یادآوری اوقات نماز و انجام عبادات روزانه برای شما مفید بوده است، میتوانید با حمایت خود به ادامه این مسیر و توسعه امکانات آن کمک کنید.\nباشد که این همراهی، گامی کوچک در مسیر نشر خیر و یادآوری عبادت باشد. 🤲\nجزاکمالله خیراً و بارکالله فیکم 🌹",
     "card": {
       "enabled": true,
       "cardNumber": "6063731241406298",
@@ -366,7 +330,7 @@
       "buttonText": "پرداخت آنلاین از طریق درگاه امن"
     }
   },
-    "dua": {
+  "dua": {
     "enabled": false,
     "showOnce": false,
     "expire": "3d",
@@ -388,13 +352,12 @@
       "duration": 5000
     }
   },
-
   "hadith_of_day": {
     "enabled": false,
     "showOnce": false,
     "expire": "1d",
     "title": "📖 حدیث روز",
-    "message": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ:\n\n«مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا، سَهَّلَ اللَّهُ لَهُ بِهِ طَرِيقًا إِلَى الْجَنَّةِ»\n\n(هر کس راهی را بپیماید که در آن دانشی جوید، خداوند راهی به سوی بهشت را برایش هموار می‌سازد. - صحیح مسلم)",
+    "message": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ:\n\n«مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا، سَهَّلَ اللَّهُ لَهُ بِهِ طَرِيقًا إِلَى الْجَنَّةِ»\n\n(هر کس راهی را بپیماید که در آن دانشی جوید، خداوند راهی به سوی بهشت را برایش هموار میسازد. - صحیح مسلم)",
     "button": {
       "enabled": true,
       "text": "قبول باشد",
@@ -411,21 +374,21 @@
       "duration": 4000
     }
   },
-  "notification":{
-    "enabled":false,
-    "title":"📢 اطلاعیه جدید",
-    "message":"یک پیام جدید برای شما دارید.",
-     "showOnce":false,
-    "image":"",
-    "url":"https://example.com"
+  "notification": {
+    "enabled": false,
+    "title": "📢 اطلاعیه جدید",
+    "message": "یک پیام جدید برای شما دارید.",
+    "showOnce": false,
+    "image": "",
+    "url": "https://example.com"
   },
-  "features":{
-    "prayerTimes":true,
-    "adhan":true,
-    "qibla":true,
-    "calendar":true,
-    "tasbih":true,
-    "radio":false
+  "features": {
+    "prayerTimes": true,
+    "adhan": true,
+    "qibla": true,
+    "calendar": true,
+    "tasbih": true,
+    "radio": false
   },
   "links": {
     "telegram_url": "https://t.me/PrXgramer",
