@@ -30,7 +30,7 @@
       }
     },
     "optionalUpdate": {
-      "enabled": true,
+      "enabled": false,
       "latestVersion": 2,
       "title": "نسخه جدید منتشر شد",
       "message": "امکانات جدیدی به برنامه اضافه شده است.",
