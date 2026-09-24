@@ -18,7 +18,7 @@
   },
   "update": {
     "forceUpdate": {
-      "enabled": true,
+      "enabled": false,
       "minimumVersion": 2,
       "title": "به‌روزرسانی ضروری",
       "message": "نسخه جدید با بهبود محاسبات شرعی منتشر شده است. لطفاً برنامه را به‌روزرسانی کنید.",
