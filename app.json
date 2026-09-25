@@ -250,6 +250,21 @@
     "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=600&q=80",
     "url": "https://t.me/your_telegram_channel"
   },
+    "topBanner": {
+    "enabled": true,
+    "icon": "message",
+    "title": "پیام مهم مدیریت",
+    "subtitle": "جهت مشاهده متن کامل پیام و اطلاعیه کلیک کنید",
+    "actionType": "page",
+    "buttonText": "مشاهده پیام",
+    "fullPageTitle": "اطلاعیه و پیام ویژه",
+    "fullPageSubtitle": "توضیحات تکمیلی برای کاربران گرامی",
+    "fullPageContent": "متن بلند و کامل پیام شما در این قسمت قرار می‌گیرد.\n\nمی‌توانید چندین پاراگراف، حدیث، یا توضیحات آموزشی و اطلاعیه‌های برنامه را در اینجا بنویسید.",
+    "autoDismiss": true,
+    "dismissDurationSec": 8,
+    "url": "https://t.me/PrXgramer"
+  }
+  ,
   "ramadan_countdown": {
     "enabled": true,
     "style": "large",
