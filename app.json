@@ -263,7 +263,7 @@
     "autoDismiss": true,
     "dismissDurationSec": 8,
     "showOnce": false,
-    "expire": "1d",
+    "expire": "0",
     "url": "https://t.me/PrXgramer"
   }
   ,
