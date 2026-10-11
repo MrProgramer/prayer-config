@@ -295,8 +295,8 @@
     "enabled": true,
     "type": "MOURNING",
     "title": "تسلیت به مردم زلزله زده کرمانشاه",
-    "startDate": "1405-06-12T00:00:00",
-    "endDate": "1405-06-20T23:59:59",
+    "startDate": "1405-07-20T00:00:00",
+    "endDate": "1405-07-21T23:59:59",
     "ribbon": {
       "offsetYDp": 15
     },
