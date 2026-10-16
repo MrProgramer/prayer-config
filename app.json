@@ -251,7 +251,7 @@
     "url": "https://t.me/your_telegram_channel"
   },
     "topBanner": {
-    "enabled": true,
+    "enabled": false,
     "icon": "message",
     "title": "پیام مهم مدیریت",
     "subtitle": "جهت مشاهده متن کامل پیام و اطلاعیه کلیک کنید",
