@@ -250,7 +250,6 @@
     "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=600&q=80",
     "url": "https://t.me/your_telegram_channel"
   },
-{
   "topBanner": {
     "enabled": true,
     "icon": "message",
