@@ -256,7 +256,7 @@
     "subtitle": "این نسخه، شروع راه ماست؛ با گزارش باگ‌ها و پیشنهادهای شما برنامه را بهتر می‌کنیم.",
     "icon": "announcement",
     "actionType": "page",
-    "showButton": true,
+    "showButton": false,
     "hideButton": false,
     "buttonText": "مشاهده",
     "fullPageTitle": "اطلاعیه مهم درباره اولین نسخه برنامه",
@@ -269,12 +269,12 @@
       "enabled": true,
       "title": "راه‌های ارتباطی و پشتیبانی",
       "subtitle": "پل‌های ارتباطی ما در شبکه‌های اجتماعی",
-      "telegram": "https://t.me/SunniPrayer",
-      "instagram": "https://instagram.com/sunniprayer",
-      "rubika": "https://rubika.ir/sunni",
-      "website": "https://example.com",
-      "phone": "09180000000",
-      "email": "support@example.com"
+      "telegram": "https://t.me/Prxgramer",
+      "instagram": "",
+      "rubika": "",
+      "website": "",
+      "phone": "",
+      "email": "prxgrammer@gmail.com"
     }
   },
   "ramadan_countdown": {
