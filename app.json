@@ -278,7 +278,7 @@
     }
   },
   "ramadan_countdown": {
-    "enabled": true,
+    "enabled": false,
     "style": "large",
     "save_offline": false,
     "countdown_mode": "auto",
